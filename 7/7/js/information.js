@@ -8,7 +8,7 @@ for (j = 1; j <= pageNum; j++) {
 
 const page1 = "미세먼지 현황을 알 수 있는 미세미세 앱을 실습해 보도록 하겠습니다. 먼저, 앱스토어를 실행합니다.";
 const page2 = "앱스토어 검색창을 클릭합니다.";
-const page3 = "검색창에 미세미세를 검색합니다.";
+const page3 = "검색창에 미세미세를 입력하고 엔터를 눌러주세요.";
 const page4 = "설치 버튼을 눌러 미세미세 앱을 설치합니다.";
 const page5 = "설치가 완료되었다면, 열기를 눌러 실행합니다.";
 const page6 = "미세미세 앱에 위치 정보 제공을 허용하기 위해 허용 버튼을 눌러 줍니다.";
@@ -41,7 +41,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "미세미세" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
