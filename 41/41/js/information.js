@@ -53,7 +53,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "당근마켓" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -66,6 +66,15 @@ function handleInput(pageNumber) {
                         handleClickBox();
                     } else if (this.value !== answer) {
                         alert(RETRY_MESSAGE);
+                        
+                        function handleInput(pageNumber) {
+    for (i = 0; i < inputPage.length; i++) {
+        if (pageNumber === inputPage[i].page) {
+            DrawInputBox(coordinateArray[pageNumber]);
+            let typeofAnswer;
+            document.querySelector(".input-answer").addEventListener("keydown", function (event) {
+                if (event.keyCode === 13) {
+                    typeofAnswer = Number(this.value);
                     }
                 }
             });

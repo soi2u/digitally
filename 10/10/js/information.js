@@ -7,7 +7,7 @@ for (j = 1; j <= pageNum; j++) {
 }
 
 const page1 = "버스를 더욱 편리하게 이용할 수 있도록 도와주는 카카오버스 앱을 실습해 보겠습니다. 먼저, 앱스토어를 실행해 주세요.";
-const page2 = "앱스토어 검색창에 카카오버스를 검색합니다.";
+const page2 = "앱스토어 검색창에 카카오버스를 입력하고 엔터를 눌러주세요.";
 const page3 = "카카오버스를 눌러 설치 페이지로 이동합니다.";
 const page4 = "설치 버튼을 눌러 카카오버스 설치를 진행합니다.";
 const page5 = "설치가 완료되었다면, 열기를 눌러 실행해 줍니다.";
@@ -50,7 +50,8 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 1, correctAnswer: "카카오버스" },
+                  { page: 7, correctAnswer: "341" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

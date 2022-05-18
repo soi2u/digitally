@@ -71,7 +71,8 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "오디" },
+                  { page: 16, correctAnswer: "제주도" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

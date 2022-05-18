@@ -53,7 +53,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "카카오페이지" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

@@ -37,7 +37,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "디지털배움터" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

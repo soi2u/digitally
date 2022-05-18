@@ -92,25 +92,40 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "보건소모바일헬스케어" },
+{ page: 21, correctAnswer: "이름을" },
+];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
         if (pageNumber === inputPage[i].page) {
             DrawInputBox(coordinateArray[pageNumber]);
             let answer = inputPage[i].correctAnswer;
+            let typeofAnswer;
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
-                    if (this.value === answer) {
-                        handleClickBox();
-                    } else if (this.value !== answer) {
-                        alert(RETRY_MESSAGE);
+                    typeofAnswer = Number(this.value);
+if (pageNumber === 21) {
+                        if (2 <= this.value.length && this.value.length <= 5 && isNaN(typeofAnswer) === true) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+} else if (pageNumber === 2) {
+                        if (this.value === answer) {
+                            handleClickBox();
+                        } else {
+                        }
                     }
-                }
-            });
+                    }
+                });
+            }
         }
     }
-}
+
+
+
+
 
 const coordinate1 = {
     startRateX: 0.4027777777777778, startRateY: 0.6546875, endRateX: 0.5972222222222222, endRateY: 0.8140625

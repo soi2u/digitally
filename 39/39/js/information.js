@@ -66,7 +66,11 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "캘린더" },
+                  { page: 18, correctAnswer: "장보기" },
+                   { page: 23, correctAnswer: "동네 마트" },
+                   { page: 24, correctAnswer: "간장 사기" }
+                  ];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
