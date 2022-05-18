@@ -44,7 +44,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 9, correctAnswer: "노래" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

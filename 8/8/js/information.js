@@ -8,7 +8,7 @@ for (j = 1; j <= pageNum; j++) {
 
 const page1 = "다양한 상품을 찾아보고 구매할 수 있는 쿠팡 앱을 실습해 보겠습니다. 먼저, 앱스토어에 접속해 줍니다.";
 const page2 = "앱스토에서 검색창을 눌러 줍니다.";
-const page3 = "검색창에 쿠팡을 검색합니다.";
+const page3 = "검색창에 쿠팡을 입력하고 엔터를 눌러주세요.";
 const page4 = "설치를 눌러 쿠팡 앱 설치를 진행해 줍니다.";
 const page5 = "설치가 완료되었다면, 열기를 눌러 쿠팡 앱을 실행합니다.";
 const page6 = "쿠팡 앱 이용을 위한 권한 동의 화면입니다. 확인을 눌러 쿠팡 홈으로 넘어갑니다.";
@@ -38,7 +38,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "쿠팡" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

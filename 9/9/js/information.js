@@ -8,7 +8,7 @@ for (j = 1; j <= pageNum; j++) {
 
 const page1 = "이번에는 쿠팡에서 상품을 검색하는 실습을 진행해 보겠습니다. 먼저, 쿠팡 앱을 눌러 실행해 주세요.";
 const page2 = "상품 검색을 위해 쿠팡 홈 화면에서 검색창을 눌러 주세요.";
-const page3 = "이번 실습에서는 휴지를 검색해 보도록 하겠습니다. 검색창에 휴지를 검색해 주세요.";
+const page3 = "이번 실습에서는 휴지를 검색해 보도록 하겠습니다. 검색창에 휴지를 입력하고 엔터를 눌러주세요.";
 const page4 = "휴지를 검색하면, 쿠팡에서 판매되고 있는 다양한 상품이 나옵니다. 가장 위에 있는 상품을 눌러 볼게요.";
 const page5 = "상품의 별점과 사진이 나옵니다. 화면을 아래로 내려 보겠습니다.";
 const page6 = "상품의 자세한 정보를 확인할 수 있습니다. 화면을 한 번 더 아래로 내려 볼게요.";
@@ -27,7 +27,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "휴지" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
