@@ -42,7 +42,9 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [
+    { page: 2, correctAnswer: "네이버지도" },
+];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -67,19 +69,19 @@ const coordinate1 = {
 };
 
 const coordinate2 = {
-    startRateX: 0.9472222222222222, startRateY: 0.1, endRateX: 0.06666666666666667, endRateY: 0.04375
+    startRateX: 0.019444444444444445, startRateY: 0.034375, endRateX: 0.9888888888888889, endRateY: 0.1078125
 };
 
 const coordinate3 = {
-    startRateX: 0.9861111111111112, startRateY: 0.1, endRateX: 0.022222222222222223, endRateY: 0.0390625
+    startRateX: 0.10555555555555556, startRateY: 0.0375, endRateX: 0.8833333333333333, endRateY: 0.10625
 };
 
 const coordinate4 = {
-    startRateX: 0.7638888888888888, startRateY: 0.125, endRateX: 0.9722222222222222, endRateY: 0.2046875
+    startRateX: 0.7333333333333333, startRateY: 0.1109375, endRateX: 0.9972222222222222, endRateY: 0.225
 };
 
 const coordinate5 = {
-    startRateX: 0.7638888888888888, startRateY: 0.125, endRateX: 0.9722222222222222, endRateY: 0.2046875
+    startRateX: 0.7333333333333333, startRateY: 0.1109375, endRateX: 0.9972222222222222, endRateY: 0.225
 };
 
 const coordinate6 = {
@@ -95,7 +97,7 @@ const coordinate8 = {
 };
 
 const coordinate9 = {
-    startRateX: 0.6722222222222223, startRateY: 0.540625, endRateX: 0.7972222222222223, endRateY: 0.5859375
+    startRateX: 0.6527777777777778, startRateY: 0.525, endRateX: 0.8527777777777777, endRateY: 0.603125
 };
 
 const coordinate10 = {
