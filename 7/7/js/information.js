@@ -66,11 +66,11 @@ const coordinate1 = {
 };
 
 const coordinate2 = {
-    startRateX: 0.12777777777777777, startRateY: 0.0375, endRateX: 0.8888888888888888, endRateY: 0.109375
+    startRateX: 0.06388888888888888, startRateY: 0.034375, endRateX: 0.9361111111111111, endRateY: 0.1046875
 };
 
 const coordinate3 = {
-    startRateX: 0.030555555555555555, startRateY: 0.1125, endRateX: 0.9555555555555556, endRateY: 0.1765625
+    startRateX: 0.10277777777777777, startRateY: 0.0328125, endRateX: 0.8972222222222223, endRateY: 0.1046875
 };
 
 const coordinate4 = {
