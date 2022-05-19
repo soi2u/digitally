@@ -41,7 +41,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 1, correctAnswer: "카카오지하철" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

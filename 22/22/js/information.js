@@ -76,7 +76,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 1, correctAnswer: "루모시티" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

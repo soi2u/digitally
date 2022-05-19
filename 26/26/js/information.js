@@ -23,7 +23,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 3, correctAnswer: "김수연" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

@@ -32,7 +32,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "맛집" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

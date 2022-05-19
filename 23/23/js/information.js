@@ -47,7 +47,8 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 1, correctAnswer: "테이크" },
+                  { page: 9, correctAnswer: "감기약" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

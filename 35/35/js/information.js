@@ -37,7 +37,8 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: 2, correctAnswer: "디지털배움터" }];
+const inputPage = [{ page: 2, correctAnswer: "디지털배움터" },
+                  { page: 9, correctAnswer: "좋아요" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
