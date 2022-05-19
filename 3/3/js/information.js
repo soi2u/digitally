@@ -37,7 +37,7 @@ pageDescArray.push(
 
 
 const inputPage = [
-    { page: 2, correctAnswer: "코레일톡" },
+    { page: 1, correctAnswer: "코레일톡" },
 ];
 
 function handleInput(pageNumber) {
@@ -63,7 +63,7 @@ const coordinate1 = {
 };
 
 const coordinate2 = {
-    startRateX: 0.9416666666666667, startRateY: 0.1046875, endRateX: 0.06388888888888888, endRateY: 0.04375
+    startRateX: 0.06111111111111111, startRateY: 0.034375, endRateX: 0.9472222222222222, endRateY: 0.1109375
 };
 
 const coordinate3 = {
