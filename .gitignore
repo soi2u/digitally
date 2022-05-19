@@ -4,3 +4,6 @@
 *.ini
 common/.DS_Store
 common/.DS_Store
+origin/desktop.ini
+desktop.ini
+refs/tags/desktop.ini 
