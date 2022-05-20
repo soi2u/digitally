@@ -136,19 +136,19 @@ const coordinate2 = {
 };
 
 const coordinate3 = {
-    startRateX: 0.005555555555555556, startRateY: 0.034375, endRateX: 0, endRateY: 0.04375
+    startRateX: 0.125, startRateY: 0.0453125, endRateX: 0.8972222222222223, endRateY: 0.103125
 };
 
 const coordinate4 = {
-    startRateX: 0.05, startRateY: 0.2015625, endRateX: 0.002777777777777778, endRateY: 0.1828125
+    startRateX: 0.008333333333333333, startRateY: 0.1140625, endRateX: 0.9944444444444445, endRateY: 0.190625
 };
 
 const coordinate5 = {
-    startRateX: 0.6638888888888889, startRateY: 0.1375, endRateX: 0.6638888888888889, endRateY: 0.1375
+    startRateX: 0.7472222222222222, startRateY: 0.115625, endRateX: 1, endRateY: 0.21875
 };
 
 const coordinate6 = {
-    startRateX: 0.6638888888888889, startRateY: 0.1375, endRateX: 0.6638888888888889, endRateY: 0.1375
+    startRateX: 0.7472222222222222, startRateY: 0.115625, endRateX: 1, endRateY: 0.21875
 };
 
 const coordinate7 = {
@@ -180,7 +180,7 @@ const coordinate13 = {
 };
 
 const coordinate14 = {
-    startRateX: 0.65, startRateY: 0.5234375, endRateX: 0.8472222222222222, endRateY: 0.5984375
+    startRateX: 0.65, startRateY: 0.5234375, endRateX: 0.8527777777777777, endRateY: 0.6015625
 };
 
 const coordinate15 = {
@@ -212,15 +212,15 @@ const coordinate18 = {
 };
 
 const coordinate19 = {
-    startRateX: 0.08333333333333333, startRateY: 0.7171875, endRateX: 0.2388888888888889, endRateY: 0.8015625
+    startRateX: 0.008333333333333333, startRateY: 0.709375, endRateX: 0.24722222222222223, endRateY: 0.80625
 };
 
 const coordinate20 = {
-    startRateX: 0.044444444444444446, startRateY: 0.30625, endRateX: 0.9583333333333334, endRateY: 0.378125
+    startRateX: 0.05277777777777778, startRateY: 0.3, endRateX: 0.9583333333333334, endRateY: 0.371875
 };
 
 const coordinate21 = {
-    startRateX: 0.044444444444444446, startRateY: 0.6140625, endRateX: 0.9555555555555556, endRateY: 0.7
+    startRateX: 0.09166666666666666, startRateY: 0.240625, endRateX: 0.8916666666666667, endRateY: 0.303125
 };
 
 const coordinate22 = {
