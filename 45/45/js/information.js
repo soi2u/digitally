@@ -10,7 +10,7 @@ const page1 = "이번 실습에서는 온라인 쇼핑 앱인 11번가에서 상
 const page2 = "11번가 메인 홈이 실행됩니다. 이제, 검색창을 눌러 주세요.";
 const page3 = "이번 시간에는 휴지를 검색해 보도록 할게요. 검색창에 휴지를 입력해 주세요.";
 const page4 = "휴지를 입력했다면, 검색 결과에 휴지 또는 돋보기 모양 버튼을 눌러 주세요.";
-const page5 = "검색 결과가 보입니다. 상품을 다른 기준으로 정렬해 볼게요. 정렬을 눌러 줍니다.";
+const page5 = "검색 결과가 보입니다. 상품을 다른 기준으로 정렬해 볼게요. 필터를 눌러 줍니다.";
 const page6 = "랭킹순이 기본 설정으로 되어 있습니다. 인기순으로 변경해 상품을 확인해 볼게요. ";
 const page7 = "인기순으로 정렬된 상품이 보입니다. 가장 위에 있는 상품을 눌러 볼게요.";
 const page8 =
@@ -65,52 +65,31 @@ function handleInput(pageNumber) {
 }
 
 const coordinate1 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.575, startRateY: 0.665625, endRateX: 0.8055555555555556, endRateY: 0.834375
 };
 
 const coordinate2 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.19166666666666668, startRateY: 0.04375, endRateX: 0.85, endRateY: 0.1
 };
 
 const coordinate3 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.1, startRateY: 0.090625, endRateX: 0.8555555555555555, endRateY: 0.165625
 };
 
 const coordinate4 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0, startRateY: 0.0828125, endRateX: 0.9972222222222222, endRateY: 0.2296875
 };
 
 const coordinate5 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.8027777777777778, startRateY: 0.1625, endRateX: 0.9972222222222222, endRateY: 0.24375
 };
 
 const coordinate6 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.3611111111111111, startRateY: 0.3328125, endRateX: 0.9972222222222222, endRateY: 0.409375
 };
 
 const coordinate7 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0, startRateY: 0.2359375, endRateX: 0.9972222222222222, endRateY: 0.5296875
 };
 
 const coordinate8 = {
@@ -121,38 +100,23 @@ const coordinate8 = {
 };
 
 const coordinate9 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.5, startRateY: 0.7640625, endRateX: 0.9972222222222222, endRateY: 0.840625
 };
 
 const coordinate10 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.3611111111111111, startRateY: 0.990625, endRateX: 0, endRateY: 0.940625
 };
 
 const coordinate11 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.25, startRateY: 0.0421875, endRateX: 0.5, endRateY: 0.1125
 };
 
 const coordinate12 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.4722222222222222, startRateY: 0.0375, endRateX: 0.775, endRateY: 0.1125
 };
 
 const coordinate13 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.7388888888888889, startRateY: 0.0421875, endRateX: 0.9888888888888889, endRateY: 0.1140625
 };
 
 const coordinate14 = {
