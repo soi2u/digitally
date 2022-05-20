@@ -45,7 +45,8 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 3, correctAnswer: "서울역" },
+                  { page: 6, correctAnswer: "신도림" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {

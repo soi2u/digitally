@@ -55,7 +55,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [{ page: 2, correctAnswer: "대한민국구석구석" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
