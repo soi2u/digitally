@@ -48,7 +48,8 @@ pageDescArray.push(
 
 
 const inputPage = [{ page: 1, correctAnswer: "테이크" },
-                  { page: 9, correctAnswer: "감기약" }];
+                  { page: 9, correctAnswer: "감기약" }
+                  { page: 13, correctAnswer: "메모" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -124,7 +125,7 @@ const coordinate13 = {
 };
 
 const coordinate14 = {
-    startRateX: 0.027777777777777776, startRateY: 0.5453125, endRateX: 0.9888888888888889, endRateY: 0.7625
+    startRateX: 0.04722222222222222, startRateY: 0.553125, endRateX: 0.9527777777777777, endRateY: 0.7421875
 };
 
 const coordinate15 = {
