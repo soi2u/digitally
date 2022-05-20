@@ -55,19 +55,23 @@ pageDescArray.push(
 
 const inputPage = [
     { page: 2, correctAnswer: "당근마켓" },
+    { page: 11, correctAnswer: "전화번호" },
 ];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
         if (pageNumber === inputPage[i].page) {
             DrawInputBox(coordinateArray[pageNumber]);
-            let answer = inputPage[i].correctAnswer;
+            let typeofAnswer;
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
-                    if (this.value === answer) {
-                        handleClickBox();
-                    } else if (this.value !== answer) {
-                        alert(RETRY_MESSAGE);
+                    typeofAnswer = Number(this.value);
+                    if (pageNumber === 11) {
+                            if (5 <= this.value.length && this.value.length <= 15 && isNaN(typeofAnswer) === false) {
+                                handleClickBox();
+                            } else {
+                                alert(RETRY_MESSAGE);
+                            }
                     }
                 }
             });
