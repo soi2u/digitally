@@ -61,7 +61,7 @@ const coordinate2 = {
 };
 
 const coordinate3 = {
-    startRateX: 0.12222222222222222, startRateY: 0.0390625, endRateX: 0.26944444444444443, endRateY: 0.103125
+    startRateX: 0.10277777777777777, startRateY: 0.0375, endRateX: 0.7888888888888889, endRateY: 0.1109375
 };
 
 const coordinate4 = {
