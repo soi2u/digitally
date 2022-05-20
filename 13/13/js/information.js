@@ -8,7 +8,7 @@ for (j = 1; j <= pageNum; j++) {
 
 const page1 = "카카오지하철에서 출발지와 도착지를 설정해 편하게 이동할 수 있도록 실습해 보겠습니다. 먼저, 카카오지하철을 실행합니다.";
 const page2 = "카카오지하철 시작 화면입니다. 상단의 역명 검색, 즐겨찾기 부분을 눌러 주세요.";
-const page3 = "광호문에서 신도림까지 가는 경로를 찾아보도록 하겠습니다. 검색창에 광화문을 입력해 주세요.";
+const page3 = "광화문에서 신도림까지 가는 경로를 찾아보도록 하겠습니다. 검색창에 광화문을 입력해 주세요.";
 const page4 = "5호선 광화문을 눌러 줍니다.";
 const page5 = "출발 버튼을 눌러 광화문을 출발지로 지정합니다.";
 const page6 = "이제 신도림역을 도착지로 지정해 보겠습니다. 도착을 눌러 줍니다.";
@@ -73,7 +73,7 @@ const coordinate2 = {
 };
 
 const coordinate3 = {
-    startRateX: 0.11388888888888889, startRateY: 0.0421875, endRateX: 0.5055555555555555, endRateY: 0.0875
+    startRateX: 0.11944444444444445, startRateY: 0.0421875, endRateX: 0.9611111111111111, endRateY: 0.0859375
 };
 
 const coordinate4 = {
@@ -89,7 +89,7 @@ const coordinate6 = {
 };
 
 const coordinate7 = {
-    startRateX: 0.1111111111111111, startRateY: 0.0421875, endRateX: 0.5027777777777778, endRateY: 0.0875
+    startRateX: 0.11666666666666667, startRateY: 0.0453125, endRateX: 0.9638888888888889, endRateY: 0.084375
 };
 
 const coordinate8 = {
