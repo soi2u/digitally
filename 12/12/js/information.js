@@ -45,7 +45,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: 3, correctAnswer: "만보기" },
+const inputPage = [{ page: 1, correctAnswer: "만보기" },
                   
 
 ];
