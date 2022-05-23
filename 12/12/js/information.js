@@ -69,55 +69,55 @@ function handleInput(pageNumber) {
 }
 
 const coordinate1 = {
-    startRateX: 0.011111111111111112, startRateY: 0.2953125, endRateX: 0.21666666666666667, endRateY: 0.4390625
+    startRateX: 0.2361111111111111, startRateY: 0.6859375, endRateX: 0.002777777777777778, endRateY: 0.5390625
 };
 
 const coordinate2 = {
-    startRateX: 0.8, startRateY: 0.028125, endRateX: 0.9861111111111112, endRateY: 0.125
+    startRateX: 0.15555555555555556, startRateY: 0.040625, endRateX: 0.7194444444444444, endRateY: 0.1046875
 };
 
 const coordinate3 = {
-    startRateX: 0.11944444444444445, startRateY: 0.04375, endRateX: 0.8888888888888888, endRateY: 0.096875
+    startRateX: 0.008333333333333333, startRateY: 0.18125, endRateX: 0.9972222222222222, endRateY: 0.265625
 };
 
 const coordinate4 = {
-    startRateX: 0.11944444444444445, startRateY: 0.04375, endRateX: 0.8888888888888888, endRateY: 0.096875
+    startRateX: 0.7722222222222223, startRateY: 0.20625, endRateX: 0.9944444444444445, endRateY: 0.315625
 };
 
 const coordinate5 = {
-    startRateX: 0.019444444444444445, startRateY: 0.46875, endRateX: 0.9833333333333333, endRateY: 0.5765625
+    startRateX: 0.7777777777777778, startRateY: 0.2328125, endRateX: 0.9944444444444445, endRateY: 0.34375
 };
 
 const coordinate6 = {
-    startRateX: 0.12222222222222222, startRateY: 0.1015625, endRateX: 0.8861111111111111, endRateY: 0.153125
+    startRateX: 0.075, startRateY: 0.753125, endRateX: 0.9194444444444444, endRateY: 0.8203125
 };
 
 const coordinate7 = {
-    startRateX: 0.08611111111111111, startRateY: 0.03125, endRateX: 0.9138888888888889, endRateY: 0.109375
+    startRateX: 0.075, startRateY: 0.753125, endRateX: 0.9194444444444444, endRateY: 0.8203125
 };
 
 const coordinate8 = {
-    startRateX: 0.025, startRateY: 0.240625, endRateX: 0.9833333333333333, endRateY: 0.34375
+    startRateX: 0.8555555555555555, startRateY: 0.03125, endRateX: 1, endRateY: 0.0953125
 };
 
 const coordinate9 = {
-    startRateX: 0.14166666666666666, startRateY: 0.23125, endRateX: 0.28888888888888886, endRateY: 0.2875
+    startRateX: 0.7555555555555555, startRateY: 0.0890625, endRateX: 0.9916666666666667, endRateY: 0.15625
 };
 
 const coordinate10 = {
-    startRateX: 0.4666666666666667, startRateY: 0.2875, endRateX: 0.2722222222222222, endRateY: 0.2328125
+    startRateX: 0.49444444444444446, startRateY: 0.734375, endRateX: 0.6777777777777778, endRateY: 0.815625
 };
 
 const coordinate11 = {
-    startRateX: 0.33611111111111114, startRateY: 0.15625, endRateX: 0.5666666666666667, endRateY: 0.2265625
+    startRateX: 0.7416666666666667, startRateY: 0.1484375, endRateX: 0.9944444444444445, endRateY: 0.2140625
 };
 
 const coordinate12 = {
-    startRateX: 0.5638888888888889, startRateY: 0.1625, endRateX: 0.7694444444444445, endRateY: 0.215625
+    startRateX: 0, startRateY: 0.94375, endRateX: 0.38055555555555554, endRateY: 0.9921875
 };
 
 const coordinate13 = {
-    startRateX: 0.5638888888888889, startRateY: 0.1625, endRateX: 0.7694444444444445, endRateY: 0.215625
+    startRateX: 0.7472222222222222, startRateY: 0.2125, endRateX: 0.9972222222222222, endRateY: 0.2671875
 };
 
 const coordinate14 = {
