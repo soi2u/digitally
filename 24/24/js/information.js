@@ -52,7 +52,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: 9, correctAnswer: "" }];
+const inputPage = [{ page: 9, correctAnswer: "정답" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
