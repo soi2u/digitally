@@ -7,14 +7,15 @@ for (j = 1; j <= pageNum; j++) {
 }
 
 const page1 = "두뇌 운동을 위한 루모시티 앱을 체험해 보겠습니다. 먼저, 앱스토어를 실행해 주세요.";
-const page2 = "앱스토어 검색창에 루모시티를 검색해 주세요.";
-const page3 = "루모시티를 눌러 검색해 줍니다.";
-const page4 = "설치 버튼을 눌러 루모시티 앱을 설치해 주세요.";
-const page5 = "설치가 완료되었다면 열기를 눌러 실행해 주세요.";
-const page6 = "루모시티의 시작 화면입니다. 시작하기를 눌러 앱을 시작해 볼게요.";
-const page7 = "루모시티에 대한 설명입니다. 다음을 눌러 주세요.";
+const page2 = "앱스토어 검색창에 루모시티를 검색합니다.";
+const page3 = "설치 버튼을 눌러 루모시티 앱을 설치해 주세요.";
+const page4 = "설치가 완료되었다면 열기를 눌러 실행해 주세요.";
+const page5 = "루모시티의 시작 화면입니다. 시작하기를 눌러 앱을 시작해 볼게요.";
+const page6 = "루모시티에 대한 설명입니다. 다음을 눌러 주세요.";
+const page7 =
+    "이메일을 적어 주세요.";
 const page8 =
-    "이메일과 생년월일을 적어 주세요.";
+    "생년월일을 적어 주세요.";
 const page9 =
     "모두 적었다면, 가입하기를 눌러 주세요.";
 const page10 =
@@ -105,31 +106,31 @@ const coordinate2 = {
 };
 
 const coordinate3 = {
-    startRateX: 0.15555555555555556, startRateY: 0.121875, endRateX: 0.3388888888888889, endRateY: 0.1703125
+    startRateX: 0.7638888888888888, startRateY: 0.1125, endRateX: 1, endRateY: 0.2328125
 };
 
 const coordinate4 = {
-    startRateX: 0.7666666666666667, startRateY: 0.1265625, endRateX: 0.9777777777777777, endRateY: 0.21875
+    startRateX: 0.7638888888888888, startRateY: 0.1125, endRateX: 1, endRateY: 0.2328125
 };
 
 const coordinate5 = {
-    startRateX: 0.7666666666666667, startRateY: 0.1265625, endRateX: 0.9777777777777777, endRateY: 0.21875
+    startRateX: 0.9972222222222222, startRateY: 0.8421875, endRateX: 0, endRateY: 0.746875
 };
 
 const coordinate6 = {
-    startRateX: 0.35, startRateY: 0.7734375, endRateX: 0.6694444444444444, endRateY: 0.8234375
+    startRateX: 0.002777777777777778, startRateY: 0.8125, endRateX: 0.9972222222222222, endRateY: 0.9328125
 };
 
 const coordinate7 = {
-    startRateX: 0.38333333333333336, startRateY: 0.8453125, endRateX: 0.6305555555555555, endRateY: 0.909375
+    startRateX: 0.24444444444444444, startRateY: 0.371875, endRateX: 0.7527777777777778, endRateY: 0.4234375
 };
 
 const coordinate8 = {
-    startRateX: 0.24722222222222223, startRateY: 0.3625, endRateX: 0.7472222222222222, endRateY: 0.540625
+    startRateX: 0.24444444444444444, startRateY: 0.4609375, endRateX: 0.75, endRateY: 0.5234375
 };
 
 const coordinate9 = {
-    startRateX: 0.23055555555555557, startRateY: 0.5546875, endRateX: 0.7805555555555556, endRateY: 0.6546875
+    startRateX: 0.002777777777777778, startRateY: 0.559375, endRateX: 1, endRateY: 0.6578125
 };
 
 const coordinate10 = {
