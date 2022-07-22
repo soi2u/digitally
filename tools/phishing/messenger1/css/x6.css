@@ -1,0 +1,154 @@
+/* screen - 6-1 */
+
+.x6-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x6-1 .group-container {
+  height: 1800px;
+  margin-top: 0;
+  position: relative;
+  width: 1080px;
+}
+
+.x6-1 .group-49 {
+  background-image: url(../img/25@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1800px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1080px;
+}
+
+.x6-1 .s6 {
+  height: 1496px;
+  margin-left: -0.1px;
+  margin-top: -0.2px;
+  object-fit: cover;
+  width: 1077px;
+}
+
+.x6-1 .group-10 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 86px;
+  min-width: 907px;
+  position: absolute;
+  top: 1531px;
+}
+
+.x6-1 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-5@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 907px;
+  padding: 8.3px 270.0px;
+}
+
+.x6-1 .text-8 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 154px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+
+.x6-1 .text-8:hover {
+  transform: scale(1.1);
+}
+/* screen - x6 */
+
+.x6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x6 .group-container-1 {
+  height: 901px;
+  position: relative;
+  width: 540px;
+}
+
+.x6 .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(../img/6@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 901px;
+  left: 0;
+  min-width: 541px;
+  padding: 0 0.2px;
+  position: absolute;
+  top: 0;
+}
+
+.x6 .s6-1 {
+  height: 749px;
+  object-fit: cover;
+  width: 539px;
+}
+
+.x6 .group-10-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 43px;
+  min-width: 455px;
+  position: absolute;
+  top: 766px;
+}
+
+.x6 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-5-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-left: -1px;
+  margin-top: -0.39px;
+  min-width: 454px;
+  padding: 4.4px 135.2px;
+}
+
+.x6 .text-57 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 77px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 183px;
+}
+
+.x6 .text-57:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1079px) {
+  .screen.x6-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1080px) {
+  .screen.x6 { 
+    display: none;
+   }
+}

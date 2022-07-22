@@ -1,0 +1,140 @@
+/* screen - 19-1 */
+
+.x19-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1800px;
+  justify-content: center;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x19-1 .overlap-group1 {
+  align-items: center;
+  background-image: url(../img/19@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  min-height: 1800px;
+  width: 1081px;
+}
+
+.x19-1 .s19 {
+  height: 1496px;
+  margin-right: 3.0px;
+  object-fit: cover;
+  width: 1078px;
+}
+
+.x19-1 .group-45 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  margin-left: 18.94px;
+  margin-top: 36px;
+  min-width: 907px;
+}
+
+.x19-1 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-4@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-top: -0.35px;
+  min-width: 906px;
+  padding: 8.3px 269.5px;
+}
+
+.x19-1 .text-30 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 154px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+
+.x19-1 .text-30:hover {
+  transform: scale(1.1);
+}
+/* screen - x19 */
+
+.x19 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  justify-content: center;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x19 .overlap-group1-1 {
+  align-items: center;
+  background-image: url(../img/19-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.25px;
+  min-height: 901px;
+  padding: 0 0.2px;
+  width: 541px;
+}
+
+.x19 .s19-1 {
+  height: 749px;
+  margin-right: 1.61px;
+  object-fit: cover;
+  width: 539px;
+}
+
+.x19 .group-45-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  margin-left: 10.37px;
+  margin-top: 18px;
+  min-width: 455px;
+}
+
+.x19 .overlap-group-1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-5@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-left: -1px;
+  margin-top: -0.39px;
+  min-width: 454px;
+  padding: 4.4px 135.2px;
+}
+
+.x19 .text-72 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 77px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 183px;
+}
+
+.x19 .text-72:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1079px) {
+  .screen.x19-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1080px) {
+  .screen.x19 { 
+    display: none;
+   }
+}

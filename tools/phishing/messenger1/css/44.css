@@ -1,0 +1,71 @@
+/* screen - 44 */
+
+.x44 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x44 .group-container {
+  height: 901px;
+  position: relative;
+  width: 540px;
+}
+
+.x44 .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/11-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 901px;
+  left: 0;
+  min-width: 541px;
+  position: absolute;
+  top: 0;
+}
+
+.x44 .s11 {
+  height: 749px;
+  object-fit: cover;
+  width: 540px;
+}
+
+.x44 .group-21 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 48px;
+  min-width: 455px;
+  position: absolute;
+  top: 766px;
+}
+
+.x44 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-22@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-left: -1px;
+  margin-top: -0.39px;
+  min-width: 454px;
+  padding: 4.4px 135.2px;
+}
+
+.x44 .text-175 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 77px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 183px;
+}
+
+.x44 .text-175:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,123 @@
+/* screen - 48 */
+
+.x48 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  justify-content: center;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x48 .group-container {
+  height: 901px;
+  margin-top: -0.25px;
+  position: relative;
+  width: 542px;
+}
+
+.x48 .group-50 {
+  align-items: flex-start;
+  background-image: url(../img/7@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 901px;
+  left: 0;
+  min-width: 542px;
+  position: absolute;
+  top: 0;
+}
+
+.x48 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/s7-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 749px;
+  justify-content: flex-end;
+  margin-left: -1px;
+  margin-top: -0.41px;
+  min-width: 540px;
+  padding: 49.7px 89.1px;
+}
+
+.x48 .text-174 {
+  letter-spacing: 0;
+  min-height: 119px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ffffff;
+  width: 361px;
+}
+
+.x48 .group-19 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 43px;
+  min-width: 215px;
+  position: absolute;
+  top: 766px;
+}
+
+.x48 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-6-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 46.6px;
+}
+
+.x48 .o {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.x48 .o:hover {
+  transform: scale(1.1);
+}
+
+.x48 .group-12 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 271px;
+  min-width: 215px;
+  position: absolute;
+  top: 766px;
+}
+
+.x48 .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-7-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 28.7px;
+}
+
+.x48 .x {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 156px;
+}
+
+.x48 .x:hover {
+  transform: scale(1.1);
+}

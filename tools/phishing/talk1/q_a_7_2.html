@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" media="screen and (max-width:540px)" href="css/q_a_max_540.css">
+    <link rel="stylesheet" media="screen and (min-width:541px)" href="css/q_a_min_541.css">
+    <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/q_a_min_1000.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&family=Noto+Sans+KR:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <script>
+        <!---------------첫번째 문제 클릭--------------
+        -->
+        $(function() {
+
+        $("#fir_bnt").click(function() {
+
+        $(".sec_box_s").show();
+
+        $("#sec_bnt").hide();
+
+        $("#fir_bnt").css({
+                    "color": "blue",
+
+        "background": "none", "font-size": "22px", "font-weight": "bold"
+        });
+
+        });
+
+        $("#sec_bnt").click(function() {
+
+        $("#fir_bnt").hide();
+
+        $(".sec_box_s").show();
+
+        $("#sec_bnt").css({
+                    "color": "red",
+
+        "background": "none", "font-size": "22px", "font-weight": "bold"
+        })
+
+        });
+
+        });
+
+
+    <!-----------------두번째 질문클릭------------------------->
+
+    $(function(){
+    $("#third_bnt").click(function(){
+    $(".third_box_s").show();
+    $("#forth_bnt").hide();
+
+    $("#third_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#forth_bnt").click(function(){
+    $("#third_bnt").hide();
+    $(".third_box_s").show();
+
+
+    $("#forth_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------세번째 질문클릭------------------------->
+
+    $(function(){
+    $("#fifth_bnt").click(function(){
+    $(".forth_box_s").show();
+    $("#sixth_bnt").hide();
+
+    $("#fifth_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#sixth_bnt").click(function(){
+    $("#fifth_bnt").hide();
+    $(".forth_box_s").show();
+
+    $("#sixth_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------네번째 질문------------------------------>
+
+
+    $(function(){
+    $("#seven_bnt").click(function(){
+    $(".fifth_box_s").show();
+    $("#eight_bnt").hide();
+    $("#seven_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#eight_bnt").click(function(){
+    $("#seven_bnt").hide();
+    $(".fifth_box_s").show();
+    $("#eight_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------다섯번째 질문------------------------------>
+
+
+    $(function(){
+    $("#nine_bnt").click(function(){
+    $("#fifth_box").show();
+    $("#ten_bnt").hide();
+    $("#nine_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold"});
+    });
+    $("#ten_bnt").click(function(){
+    $("#nine_bnt").hide();
+    $("#ten_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold"})
+    });
+    });
+
+
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="img_box">
+            <img src="img/iphone11.png" alt="">
+        </div>
+
+        <div id="question">
+            <div id="q_box">
+                <div id="fir_box">
+                    <div class="fir_box_s">
+                        <div class="box_p">
+                            <p>삼촌! 상품권 구매하려고 하는데 아이디 빌려줄 수 있어?
+                            </p>
+                        </div>
+
+
+                        <div class="ans_box">
+                            <a href="#" id="fir_bnt"> 갑자기? 무슨 아이디를 빌려줘? </a>
+                            <a href="#" id="sec_bnt">그래? 무슨 상품권인데?</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sec_box">
+                    <div class="sec_box_s">
+                        <div class="box_p">
+                            <p>서울샵에서 판매하는 거!
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="#" id="third_bnt">삼촌 지금 바빠서 빌려주기가 어려워</a>
+                            <a href="#" id="forth_bnt">그래 어떻게 도와주면 될까?</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="third_box">
+                    <div class="third_box_s">
+                        
+                            <div class="box_p">
+                                <p>삼촌 아이디랑 회원 정보, 신용카드정보만 보내주면 되는데 지금 어려울까?ㅜㅜ
+                                </p>
+                            </div>
+                            <div class="ans_box">
+                                <a href="#" id="fifth_bnt">정보를 주기는 좀 그런데 전화 줄래?</a>
+                                <a href="#" id="sixth_bnt">사진으로 캡처해서?</a>
+                            </div>
+                
+                    </div>
+                </div>
+
+                <div id="forth_box">
+                    <div class="forth_box_s">
+                        <div class="box_p">
+                            <p>사진으로만 보내 주면 돼 ㅜㅜ 바로 지울게
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="#" id="seven_bnt">카드정보만 필요하니?</a>
+                            <a href="#" id="eight_bnt">잠깐 기다려봐</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fifth_box">
+                    <div class="fifth_box_s">
+                        <div class="box_p">
+                            <p>응 그것만 보내주면돼!
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="sub.html" id="nine_bnt">전화부터 줄래? 확인하면 보내 줄게</a>
+                            <a href="sub_false.html" id="ten_bnt">사진을 보내 준다</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

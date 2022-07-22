@@ -1,0 +1,72 @@
+/* screen - 15 */
+
+.x15 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x15 .group-container {
+  height: 1800px;
+  margin-top: 0;
+  position: relative;
+  width: 1080px;
+}
+
+.x15 .group-55 {
+  background-image: url(../img/20@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1800px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1080px;
+}
+
+.x15 .s15 {
+  height: 1496px;
+  margin-left: -0.1px;
+  margin-top: -0.2px;
+  object-fit: cover;
+  width: 1077px;
+}
+
+.x15 .group-25 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 96px;
+  min-width: 907px;
+  position: absolute;
+  top: 1531px;
+}
+
+.x15 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-14@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 907px;
+  padding: 8.3px 270.1px;
+}
+
+.x15 .text-136 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 154px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+
+.x15 .text-136:hover {
+  transform: scale(1.1);
+}

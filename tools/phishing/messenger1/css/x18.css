@@ -1,0 +1,355 @@
+/* screen - 18-1 */
+
+.x18-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1800px;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x18-1 .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/25@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  min-height: 1800px;
+  padding: 34.3px 44px;
+  width: 1080px;
+}
+
+.x18-1 .overlap-group3 {
+  border-radius: 32.9px;
+  height: 1400px;
+  margin-top: 31px;
+  position: relative;
+  width: 992px;
+}
+
+.x18-1 .bg2 {
+  height: 826px;
+  left: 211px;
+  object-fit: cover;
+  position: absolute;
+  top: 328px;
+  width: 594px;
+}
+
+.x18-1 .rectangle-12 {
+  border-radius: 32.9px;
+  height: 1400px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 992px;
+}
+
+.x18-1 .text-40 {
+  -webkit-text-stroke: 1px var(--mustard);
+  height: 198px;
+  left: 101px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 533px;
+}
+
+.x18-1 .text-41 {
+  height: 294px;
+  left: 188px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 922px;
+}
+
+.x18-1 .text-42 {
+  height: 212px;
+  left: 396px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 122px;
+}
+
+.x18-1 .x18 {
+  height: 188px;
+  left: 157px;
+  position: absolute;
+  top: 124px;
+  width: 195px;
+}
+
+.x18-1 .line-1 {
+  height: 5px;
+  left: 131px;
+  position: absolute;
+  top: 848px;
+  width: 733px;
+}
+
+.x18-1 .line-2 {
+  height: 5px;
+  left: 131px;
+  position: absolute;
+  top: 412px;
+  width: 733px;
+}
+
+.x18-1 .group-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 2.21px;
+  margin-top: 66px;
+  min-width: 884px;
+}
+
+.x18-1 .group-32 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  min-width: 429px;
+}
+
+.x18-1 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-10-7@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 141.2px;
+}
+
+.x18-1 .text-38 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 145px;
+}
+
+.x18-1 .text-38:hover {
+  transform: scale(1.1);
+}
+
+.x18-1 .group-33 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  margin-left: 27px;
+  min-width: 429px;
+}
+
+.x18-1 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-11-6@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 141.2px;
+}
+
+.x18-1 .text-39 {
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  width: 145px;
+}
+/* screen - x18 */
+
+.x18-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x18-2 .overlap-group2-1 {
+  align-items: flex-start;
+  background-image: url(../img/18-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.25px;
+  min-height: 901px;
+  padding: 17.4px 22.4px;
+  width: 541px;
+}
+
+.x18-2 .overlap-group3-1 {
+  border-radius: 16.46px;
+  height: 700px;
+  margin-top: 15px;
+  position: relative;
+  width: 496px;
+}
+
+.x18-2 .bg2-1 {
+  height: 413px;
+  left: 105px;
+  object-fit: cover;
+  position: absolute;
+  top: 164px;
+  width: 298px;
+}
+
+.x18-2 .rectangle-12-1 {
+  border-radius: 16.46px;
+  height: 700px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 496px;
+}
+
+.x18-2 .text-80 {
+  -webkit-text-stroke: 0.5px var(--mustard);
+  height: 99px;
+  left: 50px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 266px;
+  width: 395px;
+}
+
+.x18-2 .text-81 {
+  height: 147px;
+  left: 94px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 461px;
+  width: 308px;
+}
+
+.x18-2 .text-82 {
+  height: 106px;
+  left: 198px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 61px;
+  width: 220px;
+}
+
+.x18-2 .x18-3 {
+  height: 94px;
+  left: 78px;
+  position: absolute;
+  top: 62px;
+  width: 98px;
+}
+
+.x18-2 .line-1-1 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 424px;
+  width: 366px;
+}
+
+.x18-2 .line-2-1 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 206px;
+  width: 366px;
+}
+
+.x18-2 .group-container-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-right: 26.47px;
+  margin-top: 33px;
+  min-width: 443px;
+}
+
+.x18-2 .group-32-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  min-width: 215px;
+}
+
+.x18-2 .overlap-group-1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-10-9@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  justify-content: flex-end;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.3px 70.4px;
+}
+
+.x18-2 .text-78 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  min-width: 73px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.x18-2 .text-78:hover {
+  transform: scale(1.1);
+}
+
+.x18-2 .group-33-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  margin-left: 12px;
+  min-width: 215px;
+}
+
+.x18-2 .overlap-group1-1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-11-7@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  justify-content: flex-end;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.3px 70.4px;
+}
+
+.x18-2 .text-79 {
+  letter-spacing: 0;
+  min-height: 91px;
+  min-width: 73px;
+  text-align: center;
+}
+@media screen and (max-width: 1079px) {
+  .screen.x18-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1080px) {
+  .screen.x18 { 
+    display: none;
+   }
+}

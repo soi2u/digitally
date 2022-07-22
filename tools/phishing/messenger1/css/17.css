@@ -1,0 +1,164 @@
+/* screen - 17 */
+
+.x17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1800px;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x17 .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/25@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  min-height: 1800px;
+  padding: 34.3px 44px;
+  width: 1080px;
+}
+
+.x17 .overlap-group3 {
+  border-radius: 32.9px;
+  height: 1400px;
+  margin-top: 31px;
+  position: relative;
+  width: 992px;
+}
+
+.x17 .bg2 {
+  height: 826px;
+  left: 197px;
+  object-fit: cover;
+  position: absolute;
+  top: 328px;
+  width: 594px;
+}
+
+.x17 .rectangle-12 {
+  border-radius: 32.9px;
+  height: 1400px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 992px;
+}
+
+.x17 .text-142 {
+  -webkit-text-stroke: 1px var(--mustard);
+  height: 198px;
+  left: 90px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 533px;
+}
+
+.x17 .text-143 {
+  height: 294px;
+  left: 188px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 922px;
+}
+
+.x17 .text-144 {
+  height: 212px;
+  left: 396px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 124px;
+}
+
+.x17 .o17 {
+  height: 215px;
+  left: 157px;
+  position: absolute;
+  top: 124px;
+  width: 195px;
+}
+
+.x17 .line-1 {
+  height: 5px;
+  left: 131px;
+  position: absolute;
+  top: 848px;
+  width: 733px;
+}
+
+.x17 .line-2 {
+  height: 5px;
+  left: 131px;
+  position: absolute;
+  top: 412px;
+  width: 733px;
+}
+
+.x17 .group-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 2.22px;
+  margin-top: 66px;
+  min-width: 884px;
+}
+
+.x17 .group-30 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  min-width: 429px;
+}
+
+.x17 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-10-7@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 141.2px;
+}
+
+.x17 .text-14 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 145px;
+}
+
+.x17 .text-14:hover {
+  transform: scale(1.1);
+}
+
+.x17 .group-31 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  margin-left: 27px;
+  min-width: 429px;
+}
+
+.x17 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-11-5@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 141.2px;
+}

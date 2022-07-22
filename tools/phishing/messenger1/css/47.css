@@ -1,0 +1,166 @@
+/* screen - 47 */
+
+.x47 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x47 .overlap-group2 {
+  align-items: flex-start;
+  background-image: url(../img/8@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: -1px;
+  margin-top: -0.25px;
+  min-height: 901px;
+  padding: 17.4px 22.9px;
+  width: 542px;
+}
+
+.x47 .overlap-group3 {
+  border-radius: 16.46px;
+  height: 700px;
+  margin-top: 15px;
+  position: relative;
+  width: 496px;
+}
+
+.x47 .bg1 {
+  height: 593px;
+  left: 54px;
+  object-fit: cover;
+  position: absolute;
+  top: 67px;
+  width: 427px;
+}
+
+.x47 .rectangle-12 {
+  border-radius: 16.46px;
+  height: 700px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 496px;
+}
+
+.x47 .text-178 {
+  -webkit-text-stroke: 0.5px var(--mustard);
+  height: 154px;
+  left: 64px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 239px;
+  width: 348px;
+}
+
+.x47 .text-179 {
+  height: 202px;
+  left: 94px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 461px;
+  width: 308px;
+}
+
+.x47 .o8 {
+  height: 108px;
+  left: 78px;
+  position: absolute;
+  top: 62px;
+  width: 98px;
+}
+
+.x47 .text-180 {
+  height: 106px;
+  left: 198px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 62px;
+  width: 220px;
+}
+
+.x47 .line-1 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 427px;
+  width: 366px;
+}
+
+.x47 .line-2 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 203px;
+  width: 366px;
+}
+
+.x47 .group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-right: 26.48px;
+  margin-top: 33px;
+  min-width: 443px;
+}
+
+.x47 .group-13 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  min-width: 215px;
+}
+
+.x47 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-8-5@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 70.6px;
+}
+
+.x47 .text-17 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 72px;
+}
+
+.x47 .text-17:hover {
+  transform: scale(1.1);
+}
+
+.x47 .group-14 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  margin-left: 12px;
+  min-width: 215px;
+}
+
+.x47 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-9-5@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 70.6px;
+}

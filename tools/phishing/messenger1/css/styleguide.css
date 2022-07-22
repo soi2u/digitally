@@ -1,0 +1,137 @@
+:root { 
+  --black: #000000;
+  --bright-red: #ad0000;
+  --cobalt: #004aad;
+  --mustard: #ffde59;
+  --spindle: #b1d0e1;
+  --white: #ffffff;
+ 
+  --font-size-l: 38.5px;
+  --font-size-m: 38.4px;
+  --font-size-s: 33px;
+  --font-size-xl: 66px;
+  --font-size-xxl: 76.8px;
+  --font-size-xxxl: 77px;
+  --font-size-xxxxl: 88px;
+ 
+  --font-family-nanum_gothic: "Nanum Gothic", Helvetica;
+}
+.nanumgothic-extra-bold-cobalt-76-8px {
+  color: var(--cobalt);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-cobalt-38-4px {
+  color: var(--cobalt);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-white-38-4px {
+  color: var(--white);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-white-76-8px {
+  color: var(--white);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-77px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-66px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-38-5px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-33px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-101px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: 101px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-bright-red-88px {
+  color: var(--bright-red);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-cobalt-88px {
+  color: var(--cobalt);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-black-50-5px {
+  color: var(--black);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: 50.5px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-cobalt-44px {
+  color: var(--cobalt);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumgothic-extra-bold-bright-red-44px {
+  color: var(--bright-red);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.border-3px-spindle {
+  border: 3px solid var(--spindle);
+}
+
+.border-1-5px-spindle {
+  border: 1.5px solid var(--spindle);
+}

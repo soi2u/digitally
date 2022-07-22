@@ -1,0 +1,38 @@
+/* screen - 28 */
+
+.x28 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x28 .overlap-group {
+  background-image: url(../img/-----1--mobile-video---1080-x-1500-px--1-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 899px;
+  margin-left: -1px;
+  margin-top: -0.59px;
+  position: relative;
+  width: 540px;
+}
+
+.x28 .rectangle-10 {
+  height: 118px;
+  left: 49px;
+  position: absolute;
+  top: 390px;
+  width: 442px;
+}
+
+.x28 .ox {
+  left: 184px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 404px;
+  width: 172px;
+}

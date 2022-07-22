@@ -1,0 +1,78 @@
+/* screen - 45 */
+
+.x45 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x45 .group-container {
+  height: 901px;
+  position: relative;
+  width: 544px;
+}
+
+.x45 .overlap-group {
+  height: 901px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 545px;
+}
+
+.x45 .x10 {
+  height: 901px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 541px;
+}
+
+.x45 .s10 {
+  height: 749px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 540px;
+}
+
+.x45 .group-20 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 48px;
+  min-width: 455px;
+  position: absolute;
+  top: 766px;
+}
+
+.x45 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-23@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-left: -1px;
+  margin-top: -0.39px;
+  min-width: 454px;
+  padding: 4.4px 135.2px;
+}
+
+.x45 .text-173 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 77px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 183px;
+}
+
+.x45 .text-173:hover {
+  transform: scale(1.1);
+}

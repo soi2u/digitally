@@ -1,0 +1,132 @@
+/* screen - 16 */
+
+.x16 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x16 .overlap-group2 {
+  height: 1800px;
+  margin-top: 0;
+  position: relative;
+  width: 1080px;
+}
+
+.x16 .group-56 {
+  background-image: url(../img/20@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1800px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1080px;
+}
+
+.x16 .s16 {
+  height: 1496px;
+  margin-left: -0.1px;
+  margin-top: -0.2px;
+  object-fit: cover;
+  width: 1077px;
+}
+
+.x16 .text-137 {
+  cursor: pointer;
+  left: 365px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 1604px;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+
+.x16 .text-137:hover {
+  transform: scale(1.1);
+}
+
+.x16 .group-26 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 85px;
+  min-width: 429px;
+  position: absolute;
+  top: 1523px;
+}
+
+.x16 .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-8-3@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 15.6px 165.1px;
+}
+
+.x16 .o {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 96px;
+}
+
+.x16 .o:hover {
+  transform: scale(1.1);
+}
+
+.x16 .group-29 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 540px;
+  min-width: 429px;
+  position: absolute;
+  top: 1523px;
+}
+
+.x16 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-9-3@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 15.6px 93.4px;
+}
+
+.x16 .x {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.x16 .x:hover {
+  transform: scale(1.1);
+}
+
+.x16 .text-138 {
+  left: 131px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 4px 4px 4px #ffffff;
+  top: 1160px;
+}

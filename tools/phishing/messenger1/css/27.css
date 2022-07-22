@@ -1,0 +1,37 @@
+/* screen - 27 */
+
+.x27 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 1800px;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x27 .overlap-group {
+  background-image: url(../img/-----1--mobile-video---1080-x-1500-px--1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1795px;
+  margin-top: -0.18px;
+  position: relative;
+  width: 1077px;
+}
+
+.x27 .rectangle-10 {
+  height: 235px;
+  left: 96px;
+  position: absolute;
+  top: 780px;
+  width: 884px;
+}
+
+.x27 .ox {
+  left: 367px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 806px;
+  width: 343px;
+}

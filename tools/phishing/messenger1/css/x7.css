@@ -1,0 +1,249 @@
+/* screen - 7-1 */
+
+.x7-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x7-1 .group-container {
+  height: 1800px;
+  position: relative;
+  width: 1082px;
+}
+
+.x7-1 .overlap-group {
+  background-image: url(../img/25@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1800px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1080px;
+}
+
+.x7-1 .s7 {
+  height: 1496px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1077px;
+}
+
+.x7-1 .text-10 {
+  left: 179px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 4px 4px 4px #ffffff;
+  top: 1160px;
+}
+
+.x7-1 .group-19 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 85px;
+  min-width: 429px;
+  position: absolute;
+  top: 1531px;
+}
+
+.x7-1 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-6@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 93.4px;
+}
+
+.x7-1 .o {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.x7-1 .o:hover {
+  transform: scale(1.1);
+}
+
+.x7-1 .group-12 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 540px;
+  min-width: 429px;
+  position: absolute;
+  top: 1531px;
+}
+
+.x7-1 .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-7@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-left: -1px;
+  margin-top: -0.35px;
+  min-width: 428px;
+  padding: 23.6px 57.5px;
+}
+
+.x7-1 .x {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 182px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 312px;
+}
+
+.x7-1 .x:hover {
+  transform: scale(1.1);
+}
+/* screen - x7 */
+
+.x7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900.5px;
+  justify-content: center;
+  overflow: hidden;
+  width: 540.3px;
+}
+
+.x7 .group-container-1 {
+  height: 901px;
+  margin-top: -0.25px;
+  position: relative;
+  width: 542px;
+}
+
+.x7 .group-50 {
+  align-items: flex-start;
+  background-image: url(../img/7@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 901px;
+  left: 0;
+  min-width: 542px;
+  position: absolute;
+  top: 0;
+}
+
+.x7 .overlap-group-1 {
+  align-items: flex-end;
+  background-image: url(../img/s7-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 749px;
+  justify-content: flex-end;
+  margin-left: -1px;
+  margin-top: -0.41px;
+  min-width: 540px;
+  padding: 49.7px 89.1px;
+}
+
+.x7 .text-97 {
+  letter-spacing: 0;
+  min-height: 119px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ffffff;
+  width: 361px;
+}
+
+.x7 .group-19-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 43px;
+  min-width: 215px;
+  position: absolute;
+  top: 766px;
+}
+
+.x7 .overlap-group1-1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-6-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 46.6px;
+}
+
+.x7 .o-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.x7 .o-1:hover {
+  transform: scale(1.1);
+}
+
+.x7 .group-12-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 117px;
+  left: 271px;
+  min-width: 215px;
+  position: absolute;
+  top: 766px;
+}
+
+.x7 .overlap-group2-1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-7-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 118px;
+  margin-top: -0.39px;
+  min-width: 214px;
+  padding: 12.0px 28.7px;
+}
+
+.x7 .x-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 91px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 156px;
+}
+
+.x7 .x-1:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1079px) {
+  .screen.x7-1 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1080px) {
+  .screen.x7 { 
+    display: none;
+   }
+}

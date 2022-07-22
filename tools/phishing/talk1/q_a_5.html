@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" media="screen and (max-width:540px)" href="css/q_a_max_540.css">
+    <link rel="stylesheet" media="screen and (min-width:541px)" href="css/q_a_min_541.css">
+    <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/q_a_min_1000.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&family=Noto+Sans+KR:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <script>
+        <!---------------첫번째 문제 클릭--------------
+        -->
+       $(function(){
+    $("#fir_bnt").click(function(){
+        $(".sec_box_s").show();
+        $("#sec_bnt").hide();
+        $("#fir_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold"});
+    });
+    $("#sec_bnt").click(function(){
+        $("#fir_bnt").hide();
+        $(".sec_box_s").show();
+        $("#sec_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold"})
+    });
+});
+
+
+
+    <!-----------------두번째 질문클릭------------------------->
+
+    $(function(){
+    $("#third_bnt").click(function(){
+    $(".third_box_s").show();
+    $("#forth_bnt").hide();
+
+    $("#third_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#forth_bnt").click(function(){
+    $("#third_bnt").hide();
+    $(".third_box_s").show();
+
+
+    $("#forth_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------세번째 질문클릭------------------------->
+
+    $(function(){
+    $("#fifth_bnt").click(function(){
+    $(".forth_box_s").show();
+    $("#sixth_bnt").hide();
+
+    $("#fifth_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#sixth_bnt").click(function(){
+    $("#fifth_bnt").hide();
+    $(".forth_box_s").show();
+
+    $("#sixth_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------네번째 질문------------------------------>
+
+
+    $(function(){
+    $("#seven_bnt").click(function(){
+    $(".fifth_box_s").show();
+    $("#eight_bnt").hide();
+    $("#seven_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"});
+    });
+    $("#eight_bnt").click(function(){
+    $("#seven_bnt").hide();
+    $(".fifth_box_s").show();
+    $("#eight_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold","margin":"10px 0 0"})
+    });
+    });
+
+
+    <!-----------------다섯번째 질문------------------------------>
+
+
+    $(function(){
+    $("#nine_bnt").click(function(){
+    $("#fifth_box").show();
+    $("#ten_bnt").hide();
+    $("#nine_bnt").css({"color":"blue", "background":"none","font-size":"22px","font-weight":"bold"});
+    });
+    $("#ten_bnt").click(function(){
+    $("#nine_bnt").hide();
+    $("#ten_bnt").css({"color":"red", "background":"none","font-size":"22px","font-weight":"bold"})
+    });
+    });
+
+
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="img_box">
+            <img src="img/iphone11.png" alt="">
+        </div>
+
+        <div id="question">
+            <div id="q_box">
+                <div id="fir_box">
+                    <div class="fir_box_s">
+                        <div class="box_p">
+                            <p>이모 바쁘세요? 죄송한데 부탁이 있어서 톡 드렸어요!
+                            </p>
+                        </div>
+
+                        <div class="ans_box">
+                            <a href="#" id="fir_bnt">응 지금 바쁜데 무슨 일이야? </a>
+                            <a href="#" id="sec_bnt">급한 일? 바쁘긴 하네</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sec_box">
+                    <div class="sec_box_s">
+                        <div class="box_p">
+                            <p>아 바쁘시구나..지금 급하게 송금할 게 있는데 공인인증서 오류로 안 된다고 해서요
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="#" id="third_bnt">금액이 얼만데?</a>
+                            <a href="#" id="forth_bnt">지금은 보내주기 어렵네</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="third_box">
+                    <div class="third_box_s">
+                        <div class="box_p">
+                            <p>27만원만 보내면 되는데 지금 어려울까요? 제가 저녁에 다시 이체해 드릴게요
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="#" id="fifth_bnt">아이고 이모가 바로 이체해 줄게</a>
+                            <a href="#" id="sixth_bnt">그래? 일단 통화부터 줄래?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="forth_box">
+                    <div class="forth_box_s">
+                        <div class="box_p">
+                            <p>전화를 드리고 싶은데 지금 어렵네요..xxxxx여기 계좌로 보내 주실 수 있어요?
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="#" id="seven_bnt">그래 알았어</a>
+                            <a href="#" id="eight_bnt">지금은 안 될 것 같다 통화하면 보내 줄게</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fifth_box">
+                    <div class="fifth_box_s">
+                        <div class="box_p">
+                            <p>걱정하지마요 저 맞아요~~ 보내주시면돼요~
+                            </p>
+                        </div>
+                        <div class="ans_box">
+                            <a href="sub_false.html" id="nine_bnt">송금한다</a>
+                            <a href="sub.html" id="ten_bnt">전화 통화 전까진 안된다</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

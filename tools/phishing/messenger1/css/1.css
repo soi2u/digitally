@@ -1,0 +1,69 @@
+/* screen - 1 */
+
+.x1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  overflow: hidden;
+  width: 1080px;
+}
+
+.x1 .group-container {
+  height: 1800px;
+  position: relative;
+  width: 1080px;
+}
+
+.x1 .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1800px;
+  left: 0;
+  min-width: 1081px;
+  position: absolute;
+  top: 0;
+}
+
+.x1 .s1 {
+  height: 1496px;
+  object-fit: cover;
+  width: 1078px;
+}
+
+.x1 .group-5 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 234px;
+  left: 86px;
+  min-width: 907px;
+  position: absolute;
+  top: 1531px;
+}
+
+.x1 .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-1-11@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 235px;
+  margin-top: -0.35px;
+  min-width: 906px;
+  padding: 8.3px 269.5px;
+}
+
+.x1 .text-113 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 154px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 366px;
+}
+
+.x1 .text-113:hover {
+  transform: scale(1.1);
+}
