@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" media="screen and (max-width:599px)" href="css/voice_max_599.css">
+    <link rel="stylesheet" media="screen and (min-width:600px)" href="css/voice_min_600.css">
+    <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/voice_min_1000.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js">
+
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&family=Noto+Sans+KR:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <script>
+        <!----------------버튼 클릭시 문제 읽기-----------------
+        -->
+           $(function() {
+        $("#fir_bnt").click(function(){
+        $("#sec_bnt").css("display","none");
+            $("#fir_bnt").css("display","none");
+            $("fir_box").append("sec_box");
+            $("#sec_box").css("display","block");
+            $(".retry>a").css("display","block");
+            });
+        $("#sec_bnt").click(function() {
+        $("#fir_bnt").css("display","none");
+             $("#sec_bnt").css("display","none");
+            $("#third_box").css("display","block");
+            $(".retry>a").css("display","block");
+            });
+        });
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+
+
+
+        <article>
+            <div id="messenger_title">
+
+                <div class="pres"><a href="./3.html">다시풀기</a></div>
+                <div class="next"><a href="./4.html">다음문제</a></div>
+
+            </div>
+            <div id="messenger">
+                <div id="messenger_outline">
+
+
+
+
+                </div>
+
+            </div>
+        </article>
+
+        <div id="question">
+            <img src="img/backgroundimg.png" alt="">
+            <div id="q_box">
+                <div id="fir_box">
+                   <div class="movingpicture">
+                    <img src="img/3.png" alt="">
+                    </div>
+
+
+                    <div class="ans_box">
+                        <a href="#" id="fir_bnt"> O. 네 </a>
+                        <a href="#" id="sec_bnt"> X. 아니요 </a>
+                    </div>
+
+                </div>
+                <div id="sec_box">
+
+                    <img src="img/result/6.png" alt="">
+
+
+                </div>
+                <div id="third_box">
+
+                    <img src="img/result/6.png" alt="">
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+<script src="./css/app.js"></script></body></html>
