@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-
+    overflow-x: auto;
 }
 
 /* RESET CSS */
@@ -535,6 +535,10 @@ input {
         color: #000;
         font-size: 12px;
     }
+    .click-area img {
+        min-width: 720px;
+        min-height: 1280px;
+    }
 }
 
 /* TABELET STYLE (769px~998px) */
@@ -592,6 +596,10 @@ input {
         color: #000;
         font-size: 12px;
     }
+    .click-area img {
+        min-width: 900px;
+        min-height: 1600px;
+    }
 }
 
 /* TABELET STYLE (999px~1119px) */
@@ -648,5 +656,9 @@ input {
     .audio-control-selector button {
         color: #000;
         font-size: 12px;
+    }
+    .click-area img {
+        min-width: 1080px;
+        min-height: 1920px;
     }
 }
