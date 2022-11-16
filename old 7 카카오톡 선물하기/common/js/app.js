@@ -31,7 +31,7 @@ let imageWidth;
 let imageHeight;
 
 // Page Section
-const pageArray = ["../common/content-1.html"];
+const pageArray = ["../../common/content-1.html"];
 
 const workingArea = document.getElementById("working-space");
 const goToMainPage = document.querySelector("#go-main-page");
