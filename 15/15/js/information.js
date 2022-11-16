@@ -39,7 +39,7 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: 9, correctAnswer: "내용을" }];
+const inputPage = [{ page: 9, correctAnswer: "내용" }];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -48,10 +48,13 @@ function handleInput(pageNumber) {
             let answer = inputPage[i].correctAnswer;
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
-                    if (this.value === answer) {
-                        handleClickBox();
-                    } else if (this.value !== answer) {
-                        alert(RETRY_MESSAGE);
+                    typeofAnswer = Number(this.value);
+                    if (pageNumber === 9) {
+                        if (1 <= this.value.length && this.value.length <= 20 && isNaN(typeofAnswer) === true) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
                     }
                 }
             });
