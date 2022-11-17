@@ -84,15 +84,15 @@ const coordinate4 = {
 };
 
 const coordinate5 = {
-    startRateX: 0.7944444444444444, startRateY: 0.3328125, endRateX: 0.6472222222222223, endRateY: 0.278125
+    startRateX: 0.5, startRateY: 0.271875, endRateX: 0.9638888888888889, endRateY: 0.3359375
 };
 
 const coordinate6 = {
-    startRateX: 0.4166666666666667, startRateY: 0.7015625, endRateX: 0.5888888888888889, endRateY: 0.7453125
+    startRateX: 0.13333333333333333, startRateY: 0.696875, endRateX: 0.8527777777777777, endRateY: 0.7515625
 };
 
 const coordinate7 = {
-    startRateX: 0.4166666666666667, startRateY: 0.7546875, endRateX: 0.5944444444444444, endRateY: 0.8140625
+    startRateX: 0.030555555555555555, startRateY: 0.7515625, endRateX: 0.975, endRateY: 0.821875
 };
 
 const coordinate8 = {
