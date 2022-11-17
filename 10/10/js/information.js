@@ -80,11 +80,11 @@ const coordinate2 = {
 };
 
 const coordinate3 = {
-    startRateX: 0.03333333333333333, startRateY: 0.1265625, endRateX: 0.3861111111111111, endRateY: 0.171875
+    startRateX: 0.002777777777777778, startRateY: 0.1109375, endRateX: 0.9972222222222222, endRateY: 0.1859375
 };
 
 const coordinate4 = {
-    startRateX: 0.5972222222222222, startRateY: 0.403125, endRateX: 0.39166666666666666, endRateY: 0.353125
+    startRateX: 0.058333333333333334, startRateY: 0.3546875, endRateX: 0.9388888888888889, endRateY: 0.4046875
 };
 
 const coordinate5 = {
@@ -104,7 +104,7 @@ const coordinate8 = {
 };
 
 const coordinate9 = {
-    startRateX: 0.18888888888888888, startRateY: 0.28125, endRateX: 0.019444444444444445, endRateY: 0.215625
+    startRateX: 0.005555555555555556, startRateY: 0.203125, endRateX: 0.9833333333333333, endRateY: 0.2890625
 };
 
 const coordinate10 = {
