@@ -95,7 +95,7 @@ const coordinate9 = {
 };
 
 const coordinate10 = {
-    startRateX: 0.4027777777777778, startRateY: 0.865625, endRateX: 0.6027777777777777, endRateY: 0.9359375
+    startRateX: 0.002777777777777778, startRateY: 0.8671875, endRateX: 0.9972222222222222, endRateY: 0.9359375
 };
 
 const coordinate11 = {
