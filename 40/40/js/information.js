@@ -128,7 +128,7 @@ if (pageNumber === 21) {
 
 
 const coordinate1 = {
-    startRateX: 0.4027777777777778, startRateY: 0.6546875, endRateX: 0.5972222222222222, endRateY: 0.8140625
+    startRateX: 0.4027777777777778, startRateY: 0.66875, endRateX: 0.6083333333333333, endRateY: 0.8078125
 };
 
 const coordinate2 = {
