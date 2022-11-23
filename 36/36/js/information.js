@@ -85,11 +85,11 @@ const coordinate6 = {
 };
 
 const coordinate7 = {
-    startRateX: 0.05, startRateY: 0.159375, endRateX: 0.9527777777777777, endRateY: 0.240625
+    startRateX: 0.05555555555555555, startRateY: 0.1625, endRateX: 0.9472222222222222, endRateY: 0.2359375
 };
 
 const coordinate8 = {
-    startRateX: 0.7361111111111112, startRateY: 0.4203125, endRateX: 0.7361111111111112, endRateY: 0.421875
+    startRateX: 0, startRateY: 0.38125, endRateX: 0.9972222222222222, endRateY: 0.43125
 };
 
 const coordinate9 = {
