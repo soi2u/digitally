@@ -19,8 +19,8 @@ const page10 = "마지막으로 설명을 읽고 옆으로 넘겨 주세요.";
 const page11 = "네이버 캘린더에 대한 간단한 설명입니다. x를 눌러 네이버 캘린더의 메인 화면으로 이동해 주세요.";
 const page12 = "날씨 정보 제공을 위해 확인을 눌러 주세요.";
 const page13 = "위치 정보 제공을 위해 확인을 눌러 주세요.";
-const page14 = "네이버캘린더의 메인 화면입니다. 오늘 날짜의 달력이 보입니다. 먼저, 오른쪽 상단의 버튼을 눌러 볼게요.";
-const page15 = "더욱 자세한 일정을 확인할 수 있도록 일주일 단위로 정리된 달력이 보입니다. 다시 오른쪽 상단의 버튼을 눌러 돌아가 볼게요.";
+const page14 = "네이버캘린더의 메인 화면입니다. 오늘 날짜의 달력이 보입니다. 먼저, 오른쪽 상단의 달력 버튼을 눌러 볼게요.";
+const page15 = "더욱 자세한 일정을 확인할 수 있도록 일주일 단위로 정리된 달력이 보입니다. 다시 오른쪽 상단의 달력 버튼을 눌러 돌아가 볼게요.";
 const page16 = "이번에는 다른 달을 확인해 볼게요. 왼쪽 상단의 달까지 표시된 날짜를 눌러 줍니다.";
 const page17 = "위아래로 내리며 전체 달력을 확인할 수 있습니다. 취소를 눌러 돌아가 보겠습니다.";
 const page18 = "이제 일정을 추가해 볼게요. 오른쪽 하단의 + 버튼을 눌러 줍니다.";
@@ -155,11 +155,11 @@ const coordinate13 = {
 };
 
 const coordinate14 = {
-    startRateX: 0.6305555555555555, startRateY: 0.515625, endRateX: 0.85, endRateY: 0.6015625
+    startRateX: 0.5083333333333333, startRateY: 0.0484375, endRateX: 0.9972222222222222, endRateY: 0.1046875
 };
 
 const coordinate15 = {
-    startRateX: 0.6305555555555555, startRateY: 0.515625, endRateX: 0.85, endRateY: 0.6015625
+    startRateX: 0.5083333333333333, startRateY: 0.0484375, endRateX: 0.9972222222222222, endRateY: 0.1046875
 };
 
 const coordinate16 = {
@@ -171,7 +171,7 @@ const coordinate17 = {
 };
 
 const coordinate18 = {
-    startRateX: 0.43333333333333335, startRateY: 0.76875, endRateX: 0.6416666666666667, endRateY: 0.8359375
+    startRateX: 0.7305555555555555, startRateY: 0.825, endRateX: 0.9972222222222222, endRateY: 0.928125
 };
 
 const coordinate19 = {
