@@ -28,7 +28,7 @@ const page14 = "앱이 오디오 정보에 접근할 수 있도록 허용을 눌
 const page15 = "보건소 모바일 헬스 케어 앱에 대한 설명입니다. 옆으로 넘겨 다음 화면으로 이동해 주세요.";
 const page16 = "마찬가지로 옆으로 넘겨 다음 화면으로 이동해 주세요.";
 const page17 = "한 번 더 옆으로 넘겨 다음 화면으로 이동해 주세요.";
-const page18 = "마지막으로 옆으로 넘겨 다음 화면으로 이동해 주세요.";
+const page18 = "모바일 헬스케어 로그인하기를 눌러 로그인 페이지로 이동해 주세요.";
 const page19 = "이제 로그인을 진행해 보겠습니다. 이번 실습에서는 카카오톡 계정을 통해 로그인해 볼게요. 하단의 카카오톡 버튼을 눌러 주세요.";
 const page20 = "모바일 헬스 케어의 약관입니다. 전체 동의하기를 눌러 주세요.";
 const page21 = "전체 동의하기를 눌렀다면, 동의하고 계속하기 버튼을 눌러 넘어가 주세요.";
@@ -205,22 +205,19 @@ const coordinate17 = {
 };
 
 const coordinate18 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.005555555555555556, startRateY: 0.8125, endRateX: 0.9972222222222222, endRateY: 0.875
 };
 
 const coordinate19 = {
-    startRateX: 0.06666666666666667, startRateY: 0.715625, endRateX: 0.23055555555555557, endRateY: 0.790625
+    startRateX: 0.04722222222222222, startRateY: 0.7125, endRateX: 0.22777777777777777, endRateY: 0.796875
 };
 
 const coordinate20 = {
-    startRateX: 0.04722222222222222, startRateY: 0.296875, endRateX: 0.9583333333333334, endRateY: 0.375
+    startRateX: 0.05277777777777778, startRateY: 0.3078125, endRateX: 0.9333333333333333, endRateY: 0.375
 };
 
 const coordinate21 = {
-    startRateX: 0.04722222222222222, startRateY: 0.6171875, endRateX: 0.9638888888888889, endRateY: 0.696875
+    startRateX: 0.03611111111111111, startRateY: 0.615625, endRateX: 0.9722222222222222, endRateY: 0.7015625
 };
 
 const coordinate22 = {
@@ -228,19 +225,19 @@ const coordinate22 = {
 };
 
 const coordinate23 = {
-    startRateX: 0, startRateY: 0.815625, endRateX: 1, endRateY: 0.909375
+    startRateX: 0.005555555555555556, startRateY: 0.825, endRateX: 0.9972222222222222, endRateY: 0.9015625
 };
 
 const coordinate24 = {
-    startRateX: 0.11666666666666667, startRateY: 0.571875, endRateX: 0.8888888888888888, endRateY: 0.6484375
+    startRateX: 0.10277777777777777, startRateY: 0.571875, endRateX: 0.8861111111111111, endRateY: 0.6515625
 };
 
 const coordinate25 = {
-    startRateX: 0.005555555555555556, startRateY: 0.8203125, endRateX: 0.9916666666666667, endRateY: 0.9140625
+    startRateX: 0.005555555555555556, startRateY: 0.8328125, endRateX: 0.9972222222222222, endRateY: 0.8984375
 };
 
 const coordinate26 = {
-    startRateX: 0.9972222222222222, startRateY: 0.6078125, endRateX: 0, endRateY: 0.221875
+    startRateX: 0.002777777777777778, startRateY: 0.821875, endRateX: 0.9944444444444445, endRateY: 0.9109375
 };
 
 const coordinate27 = {
@@ -248,31 +245,31 @@ const coordinate27 = {
 };
 
 const coordinate28 = {
-    startRateX: 0.08611111111111111, startRateY: 0.3046875, endRateX: 0.9027777777777778, endRateY: 0.384375
+    startRateX: 0.8666666666666667, startRateY: 0.353125, endRateX: 0.8666666666666667, endRateY: 0.3515625
 };
 
 const coordinate29 = {
-    startRateX: 0.6055555555555555, startRateY: 0.5796875, endRateX: 0.9416666666666667, endRateY: 0.6640625
+    startRateX: 0.030555555555555555, startRateY: 0.2921875, endRateX: 0.9722222222222222, endRateY: 0.4640625
 };
 
 const coordinate30 = {
-    startRateX: 1, startRateY: 0.915625, endRateX: 0, endRateY: 0.8
+    startRateX: 0.011111111111111112, startRateY: 0.8140625, endRateX: 0.9972222222222222, endRateY: 0.9171875
 };
 
 const coordinate31 = {
-    startRateX: 0.08888888888888889, startRateY: 0.3046875, endRateX: 0.4527777777777778, endRateY: 0.4125
+    startRateX: 0.05, startRateY: 0.28125, endRateX: 0.4777777777777778, endRateY: 0.4328125
 };
 
 const coordinate32 = {
-    startRateX: 0.49722222222222223, startRateY: 0.3046875, endRateX: 0.9111111111111111, endRateY: 0.4234375
+    startRateX: 0.4666666666666667, startRateY: 0.28125, endRateX: 0.9166666666666666, endRateY: 0.4484375
 };
 
 const coordinate33 = {
-    startRateX: 0, startRateY: 0.809375, endRateX: 1, endRateY: 0.90625
+    startRateX: 0.011111111111111112, startRateY: 0.8125, endRateX: 0.9972222222222222, endRateY: 0.90625
 };
 
 const coordinate34 = {
-    startRateX: 0.125, startRateY: 0.353125, endRateX: 0.8916666666666667, endRateY: 0.6796875
+    startRateX: 0.03333333333333333, startRateY: 0.3265625, endRateX: 0.9833333333333333, endRateY: 0.73125
 };
 
 const coordinate35 = {
