@@ -1,7 +1,7 @@
 const pageNum = 12;
 const pageName = "50";
 for (j = 1; j <= pageNum; j++) {
-    contentImage.push(`../${pageName}/image/${j}.jpg`);
+    contentImage.push(`../${pageName}/image/${j}.png`);
     audio = new Audio(`../${pageName}/audio/${j}.mp3`);
     audioArray.push(audio);
 }
