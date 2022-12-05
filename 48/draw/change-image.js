@@ -3,10 +3,10 @@ const imageArray = [];
 
 const codeDescription = document.querySelector(".code-area-desc");
 const pageNum = 22;
-const pageName = "47";
+const pageName = "48";
 
 for (i = 1; i <= pageNum; i++) {
-    imageArray.push(`../${pageName}/image/${i}.png`);
+    imageArray.push(`../${pageName}/image/${i}.jpg`);
 }
 imageVariable = 0;
 loadBackgroundImage(imageVariable);
