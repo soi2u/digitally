@@ -1,5 +1,5 @@
-const pageNum = 7;
-const pageName = "51";
+const pageNum = 12;
+const pageName = "52";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
     audio = new Audio(`../${pageName}/audio/${j}.mp3`);
@@ -13,6 +13,11 @@ const page4 = "저축예금 부분을 눌러 더 자세하게 알아볼게요.";
 const page5 = "통장사본 저장을 눌러 줍니다.";
 const page6 = "통장사본 저장 페이지입니다. 한 번 눌러 넘어가 줄게요.";
 const page7 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page8 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page9 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page10 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page11 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page12 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
 
 pageDescArray.push(
     page1,
@@ -21,7 +26,12 @@ pageDescArray.push(
     page4,
     page5,
     page6,
-    page7
+    page7,
+    page8,
+    page9,
+    page10,
+    page11,
+    page12
 );
 
 
@@ -85,5 +95,10 @@ coordinateArray.push(
     coordinate4,
     coordinate5,
     coordinate6,
-    coordinate7
+    coordinate7,
+    coordinate8,
+    coordinate9,
+    coordinate10,
+    coordinate11,
+    coordinate12
 );
