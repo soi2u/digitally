@@ -1,4 +1,4 @@
-const pageNum = 12;
+const pageNum = 11;
 const pageName = "52";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
@@ -6,18 +6,18 @@ for (j = 1; j <= pageNum; j++) {
     audioArray.push(audio);
 }
 
-const page1 = "우리WON뱅킹의 통장 사본 조회 서비스를 이용해 보도록 하겠습니다. 먼저, 전체 메뉴를 확인하기 위해 우측 하단의 전체를 눌러 줍니다.";
-const page2 = "계좌 조회를 눌러 줍니다.";
-const page3 = "통장사본 조회를 눌러 줍니다.";
-const page4 = "저축예금 부분을 눌러 더 자세하게 알아볼게요.";
-const page5 = "통장사본 저장을 눌러 줍니다.";
-const page6 = "통장사본 저장 페이지입니다. 한 번 눌러 넘어가 줄게요.";
-const page7 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
-const page8 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
-const page9 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
-const page10 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
-const page11 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
-const page12 = "확인을 누르면 통장 사본이 저장됩니다. 모두 고생하셨습니다.";
+const page1 = "우리WON뱅킹의 원터치 알림 서비스를 이용해 보도록 하겠습니다. 먼저, 우리WON뱅킹 앱을 눌러 실행합니다.";
+const page2 = "전체 메뉴를 확인하기 위해 우측 하단의 전체를 눌러 줍니다.";
+const page3 = "부가서비스를 눌러 줍니다.";
+const page4 = "통지서비스를 눌러 줍니다.";
+const page5 = "WON알림을 눌러 줍니다..";
+const page6 = "이용 약관 옆 버튼을 눌러 WON 알림 이용에 동의합니다.";
+const page7 = "동의 후 알림 받기를 눌러 줍니다.";
+const page8 = "기타 알림을 눌러 줍니다.";
+const page9 = "만기 알림의 예금, 적금, 신탁 옆 버튼을 눌러 알림을 켜짐으로 돌려 줍니다.";
+const page10 = "대출이자 납입 옆 버튼을 눌러 알림을 켜짐으로 돌려 줍니다. ";
+const page11 = "원터치 알림이 설정되었습니다. 모두 고생하셨습니다.";
+
 
 pageDescArray.push(
     page1,
@@ -30,8 +30,7 @@ pageDescArray.push(
     page8,
     page9,
     page10,
-    page11,
-    page12
+    page11
 );
 
 
@@ -86,7 +85,19 @@ const coordinate7 = {
     startRateX: 0.1527777777777778, startRateY: 0.53125, endRateX: 0.8444444444444444, endRateY: 0.6015625
 };
 
+const coordinate8 = {
+    startRateX: 0.1527777777777778, startRateY: 0.53125, endRateX: 0.8444444444444444, endRateY: 0.6015625
+};
+const coordinate9 = {
+    startRateX: 0.1527777777777778, startRateY: 0.53125, endRateX: 0.8444444444444444, endRateY: 0.6015625
+};
+const coordinate10 = {
+    startRateX: 0.1527777777777778, startRateY: 0.53125, endRateX: 0.8444444444444444, endRateY: 0.6015625
+};
 
+const coordinate11 = {
+    startRateX: 0.1527777777777778, startRateY: 0.53125, endRateX: 0.8444444444444444, endRateY: 0.6015625
+};
 
 coordinateArray.push(
     coordinate1,
@@ -100,5 +111,4 @@ coordinateArray.push(
     coordinate9,
     coordinate10,
     coordinate11,
-    coordinate12
 );
