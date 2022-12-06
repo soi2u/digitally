@@ -1,4 +1,4 @@
-const pageNum = 13;
+const pageNum = 14;
 const pageName = "53";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
@@ -17,6 +17,8 @@ const page8 = "기타 알림을 눌러 줍니다.";
 const page9 = "만기 알림의 예금, 적금, 신탁 옆 버튼을 눌러 알림을 켜짐으로 돌려 줍니다.";
 const page10 = "대출이자 납입 옆 버튼을 눌러 알림을 켜짐으로 돌려 줍니다. ";
 const page11 = "원터치 알림이 설정되었습니다. 모두 고생하셨습니다.";
+const page12 = "원터치 알림이 설정되었습니다. 모두 고생하셨습니다.";
+const page13 = "원터치 알림이 설정되었습니다. 모두 고생하셨습니다.";
 
 
 pageDescArray.push(
@@ -30,7 +32,9 @@ pageDescArray.push(
     page8,
     page9,
     page10,
-    page11
+    page11,
+    page12,
+    page13
 );
 
 
@@ -99,6 +103,20 @@ const coordinate11 = {
     endRateY: 1,
 };
 
+const coordinate12 = {
+    startRateX: 0,
+    startRateY: 0,
+    endRateX: 1,
+    endRateY: 1,
+};
+
+const coordinate13 = {
+    startRateX: 0,
+    startRateY: 0,
+    endRateX: 1,
+    endRateY: 1,
+};
+
 coordinateArray.push(
     coordinate1,
     coordinate2,
@@ -111,4 +129,6 @@ coordinateArray.push(
     coordinate9,
     coordinate10,
     coordinate11,
+    coordinate12,
+    coordinate13
 );
