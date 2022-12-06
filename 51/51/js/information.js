@@ -1,4 +1,4 @@
-const pageNum = 8;
+const pageNum = 9;
 const pageName = "51";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
