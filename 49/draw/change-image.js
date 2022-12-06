@@ -6,7 +6,7 @@ const pageNum = 7;
 const pageName = "49";
 
 for (i = 1; i <= pageNum; i++) {
-    imageArray.push(`../${pageName}/image/${i}.jpg`);
+    imageArray.push(`../${pageName}/image/${i}.png`);
 }
 imageVariable = 0;
 loadBackgroundImage(imageVariable);
