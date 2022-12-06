@@ -38,7 +38,11 @@ pageDescArray.push(
 );
 
 
-const inputPage = [{ page: null, correctAnswer: null }];
+const inputPage = [
+    { page: 5, correctAnswer: "고객번호 10자리 숫자" },
+    { page: 9, correctAnswer: "비밀번호 숫자 4자리" },
+    { page: 10, correctAnswer: "연락처 숫자만" },
+];
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -47,10 +51,25 @@ function handleInput(pageNumber) {
             let answer = inputPage[i].correctAnswer;
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
-                    if (this.value === answer) {
-                        handleClickBox();
-                    } else if (this.value !== answer) {
-                        alert(RETRY_MESSAGE);
+                    typeofAnswer = Number(this.value);
+                    if (pageNumber === 5) {
+                        if (4 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+                    } else if (pageNumber === 9) {
+                        if (4 <= this.value.length && this.value.length <= 4 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+                    } else if (pageNumber === 10) {
+                        if (5 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
                     }
                 }
             });
