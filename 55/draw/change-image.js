@@ -2,8 +2,8 @@ const changeButton = document.querySelector(".change-btn");
 const imageArray = [];
 
 const codeDescription = document.querySelector(".code-area-desc");
-const pageNum = 18;
-const pageName = "54";
+const pageNum = 10;
+const pageName = "55";
 
 for (i = 1; i <= pageNum; i++) {
     imageArray.push(`../${pageName}/image/${i}.png`);

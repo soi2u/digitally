@@ -1,28 +1,30 @@
-const pageNum = 18;
-const pageName = "54";
+const pageNum = 19;
+const pageName = "55";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
     audio = new Audio(`../${pageName}/audio/${j}.mp3`);
     audioArray.push(audio);
 }
 
-const page1 = "우리WON뱅킹의 서비스 이용을 위한 간편 가입을 진행해 보겠습니다. 먼저, 우리WON뱅킹 앱을 눌러 실행해 주세요.";
-const page2 = "시작하기를 눌러 주세요.";
-const page3 = "전체 동의를 눌러 주세요.";
-const page4 = "이름을 입력한 후 엔터를 눌러 주세요. 이번 실습에서는 한국인을 입력해 줍니다.";
-const page5 = "생년월일 여섯 자리를 입력해 주세요.";
-const page6 = "주민번호 뒷자리 한 자리를 입력해 주세요.";
-const page7 = "통신사 버튼을 눌러 줍니다.";
-const page8 = "KT를 선택해 줍니다.";
-const page9 = "인증 요청을 눌러 주세요.";
-const page10 = "인증하기를 눌러 주세요.";
-const page11 = "우리WON 간편회원을 눌러 주세요.";
-const page12 = "맞춤 준비 시작하기를 눌러 주세요.";
-const page13 = "전체 동의를 눌러 주세요.";
-const page14 = "다시 한번 전체 동의를 눌러 주세요.";
-const page15 = "다음을 눌러 주세요.";
-const page16 = "정보를 확인한 후 다음을 눌러 주세요.";
-const page17 = "확인을 누르면 가입이 완료됩니다. 모두 고생하셨습니다.";
+const page1 = "우리WON뱅킹으로 계좌 이체 하는 법을 실습해 보겠습니다. 먼저, 우리WON뱅킹 앱을 눌러 실행해 주세요.";
+const page2 = "이체 버튼을 눌러 주세요.";
+const page3 = "다시 한번, 이체를 눌러 주세요.";
+const page4 = "우리 은행으로 설정 되어 있는 은행 선택 버튼을 누르면 은행을 변경할 수 있습니다. 우리 은행을 눌러 주세요.";
+const page5 = "다시 우리 은행을 선택해 주세요.";
+const page6 = "입금할 계좌 번호 버튼을 눌러 주세요.";
+const page7 = "입금할 계좌 번호 열세 자리를 입력해 주세요.";
+const page8 = "보낼 금액 버튼을 눌러 주세요.";
+const page9 = "보낼 금액을 입력해 주세요. 이번에는 15300을 입력해 보겠습니다.";
+const page10 = "확인을 눌러 주세요.";
+const page11 = "키패드에서 비밀번호 첫 번째 자리를 눌러 주세요.";
+const page12 = "키패드에서 비밀번호 두 번째 자리를 눌러 주세요.";
+const page13 = "키패드에서 비밀번호 세 번째 자리를 눌러 주세요.";
+const page14 = "키패드에서 비밀번호 네 번째 자리를 눌러 주세요.";
+const page15 = "입력 완료를 눌러 주세요.";
+const page16 = "다시 한번 확인을 눌러 주세요.";
+const page17 = "이체하기를 눌러 주세요.";
+const page18 = "확인을 누르면 이체가 완료됩니다. 모두 고생하셨습니다.";
+
 
 pageDescArray.push(
     page1,
@@ -41,7 +43,8 @@ pageDescArray.push(
     page14,
     page15,
     page16,
-    page17
+    page17,
+    page18,
 );
 
 
@@ -121,34 +124,36 @@ const coordinate9 = {
 const coordinate10 = {
     startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
-
 const coordinate11 = {
-    startRateX: 0.075, startRateY: 0.4829001367989056, endRateX: 0.9305555555555556, endRateY: 0.6771545827633378
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
-
 const coordinate12 = {
-    startRateX: 0.002777777777777778, startRateY: 0.9398084815321477, endRateX: 0.9972222222222222, endRateY: 1
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
-
 const coordinate13 = {
-    startRateX: 0.013888888888888888, startRateY: 0.2106703146374829, endRateX: 0.9972222222222222, endRateY: 0.27906976744186046
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
-
 const coordinate14 = {
-    startRateX: 0.013888888888888888, startRateY: 0.9179206566347469, endRateX: 0.9888888888888889, endRateY: 1
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
 
 const coordinate15 = {
-    startRateX: 0.2833333333333333, startRateY: 0.9151846785225718, endRateX: 0.9972222222222222, endRateY: 0.9986320109439124
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
 
 const coordinate16 = {
-    startRateX: 0.002777777777777778, startRateY: 0.9069767441860465, endRateX: 0.9972222222222222, endRateY: 0.9958960328317373
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
 
 const coordinate17 = {
-    startRateX: 0.011111111111111112, startRateY: 0.9138166894664843, endRateX: 0.9944444444444445, endRateY: 0.9986320109439124
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
+
+const coordinate18 = {
+    startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
+};
+
+
 
 coordinateArray.push(
     coordinate1,
@@ -167,5 +172,6 @@ coordinateArray.push(
     coordinate14,
     coordinate15,
     coordinate16,
-    coordinate17
+    coordinate17,
+    coordinate18
 );
