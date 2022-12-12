@@ -2,7 +2,7 @@ const changeButton = document.querySelector(".change-btn");
 const imageArray = [];
 
 const codeDescription = document.querySelector(".code-area-desc");
-const pageNum = 10;
+const pageNum = 19;
 const pageName = "55";
 
 for (i = 1; i <= pageNum; i++) {
