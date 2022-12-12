@@ -119,10 +119,7 @@ const coordinate13 = {
 };
 
 const coordinate14 = {
-    startRateX: 0,
-    startRateY: 0,
-    endRateX: 1,
-    endRateY: 1,
+    startRateX: 0.7416666666666667, startRateY: 0.1515625, endRateX: 0.9805555555555555, endRateY: 0.23125
 };
 
 coordinateArray.push(
