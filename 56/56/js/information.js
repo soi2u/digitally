@@ -72,7 +72,6 @@ pageDescArray.push(
     page24,
     page25,
     page26,
-    page26,
     page27,
     page28,
     page29,
@@ -249,11 +248,11 @@ const coordinate32 = {
 };
 
 const coordinate33 = {
-    startRateX: 0.05, startRateY: 0.47332421340629277, endRateX: 0.9527777777777777, endRateY: 0.5485636114911081
+    startRateX: 0.04722222222222222, startRateY: 0.3844049247606019, endRateX: 0.9472222222222222, endRateY: 0.45690834473324216
 };
 
 const coordinate34 = {
-    startRateX: 0.002777777777777778, startRateY: 0.908344733242134, endRateX: 0.9972222222222222, endRateY: 0.9931600547195623
+    startRateX: 0.05, startRateY: 0.47606019151846785, endRateX: 0.9555555555555556, endRateY: 0.5499316005471956
 };
 
 const coordinate35 = {
