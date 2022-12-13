@@ -1,5 +1,5 @@
-const pageNum = 19;
-const pageName = "55";
+const pageNum = 38;
+const pageName = "56";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
     audio = new Audio(`../${pageName}/audio/${j}.mp3`);
