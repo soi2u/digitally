@@ -38,8 +38,8 @@ const page29 = "동의하고 계속 진행합니다를 눌러 주세요.";
 const page30 = "다음을 눌러 주세요.";
 const page31 = "다시 한번, 다음을 눌러 주세요.";
 const page32 = "마지막으로, 다음을 눌러 주세요.";
-const page33 = "비밀번호 숫자 네 자리를 눌러 주세요.";
-const page34 = "다시 한번, 비밀번호 숫자 네 자리를 눌러 주세요.";
+const page33 = "비밀번호 숫자 네 자리를 입력해 주세요.";
+const page34 = "다시 한번, 비밀번호 숫자 네 자리를 입력해 주세요.";
 const page35 = "다음을 눌러 넘어가 주세요.";
 const page36 = "다시 한번, 다음을 눌러 주세요.";
 const page37 = "확인을 눌러 가입을 완료해 주세요. 모두 고생하셨습니다.";
@@ -87,9 +87,13 @@ pageDescArray.push(
 
 
 const inputPage = [
-    { page: 6, correctAnswer: "입금할 계좌 번호 열세 자리" },
-    { page: 8, correctAnswer: "15300" },
+    { page: 11, correctAnswer: "인증 번호 여섯 자리" },
+    { page: 23, correctAnswer: "계좌 번호 열세 자리" },
+    { page: 24, correctAnswer: "비밀번호 네 자리" },
+    { page: 32, correctAnswer: "비밀번호 네 자리" },
+    { page: 33, correctAnswer: "비밀번호 네 자리" },
 ];
+
 
 function handleInput(pageNumber) {
     for (i = 0; i < inputPage.length; i++) {
@@ -264,7 +268,7 @@ const coordinate36 = {
 };
 
 const coordinate37 = {
-    startRateX: 0.9694444444444444, startRateY: 0.960328317373461, endRateX: 0.9694444444444444, endRateY: 0.960328317373461
+    startRateX: 0.005555555555555556, startRateY: 0.9247606019151847, endRateX: 0.9944444444444445, endRateY: 0.9972640218878249
 };
 
 coordinateArray.push(
