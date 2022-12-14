@@ -49,7 +49,7 @@ pageDescArray.push(
 
 
 const inputPage = [
-    { page: 6, correctAnswer: "입금할 계좌 번호 열세 자리" },
+    { page: 6, correctAnswer: "입금할 계좌 번호 숫자만" },
     { page: 8, correctAnswer: "15300" },
 ];
 
@@ -61,14 +61,14 @@ function handleInput(pageNumber) {
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
                     typeofAnswer = Number(this.value);
-                    if (pageNumber === 5) {
-                        if (4 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                    if (pageNumber === 6) {
+                        if (9 <= this.value.length && this.value.length <= 14 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);
                         }
-                    } else if (pageNumber === 9) {
-                        if (4 <= this.value.length && this.value.length <= 4 && isNaN(typeofAnswer) === false) {
+                    } else if (pageNumber === 8) {
+                        if (1 <= this.value.length && this.value.length <= 6 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);

@@ -23,7 +23,7 @@ const page14 = "확인을 눌러 인증을 완료해 주세요.";
 const page15 = "주민등록증이나 운전면허증 또는 모바일 운전면허증을 가지고 계신가요? 라는 질문에 예를 눌러 주세요.";
 const page16 = "최근 한달이내에 입출금 통장을 만드셨나요? 라는 질문에 아니오를 눌러 주세요.";
 const page17 = "다음을 눌러 주세요.";
-const page18 = "확인을 눌러 계좌 개설을 진행해 주세요.";
+const page18 = "체크카드 발급 진행 확인 또는 취소를 눌러 계좌 개설을 진행해 주세요.";
 const page19 = "신분증 촬영을 눌러 주세요.";
 const page20 = "신분증 촬영을 진행해 주세요. 이번 실습에서는 운전면허증 부분을 선택해 넘어가도록 하겠습니다.";
 const page21 = "신분증 확인하기 버튼을 눌러 주세요.";
@@ -33,11 +33,11 @@ const page24 = "계좌번호 열세 자리를 입력해 주세요.";
 const page25 = "계좌 비밀번호 네 자리를 입력해 주세요.";
 const page26 = "계좌 인증을 눌러 넘어가 주세요.";
 const page27 = "전체 동의를 눌러 주세요.";
-const page28 = "선택 항목인, 개인 정보 수집 및 이용 동의서 옆의 체크 버튼을 눌러 동의해 주세요.";
+const page28 = "선택 항목은 동의하지 않아도 됩니다. 실습에서는 개인 정보 수집 및 이용 동의서 옆의 체크 버튼을 눌러 동의하겠습니다.";
 const page29 = "동의하고 계속 진행합니다를 눌러 주세요.";
-const page30 = "다음을 눌러 주세요.";
-const page31 = "다시 한번, 다음을 눌러 주세요.";
-const page32 = "마지막으로, 다음을 눌러 주세요.";
+const page30 = "등록되어 있는 기본 정보를 확인하고, 다음을 눌러 주세요.";
+const page31 = "거래목적 및 자금의 원천, 그리고 실소유자 여부를 확인하고, 다음을 눌러 주세요";
+const page32 = "마지막으로, 주의사항을 확인하고 다음을 눌러 주세요.";
 const page33 = "비밀번호 숫자 네 자리를 입력해 주세요.";
 const page34 = "다시 한번, 비밀번호 숫자 네 자리를 입력해 주세요.";
 const page35 = "다음을 눌러 넘어가 주세요.";
@@ -103,20 +103,26 @@ function handleInput(pageNumber) {
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
                     typeofAnswer = Number(this.value);
-                    if (pageNumber === 5) {
+                    if (pageNumber === 11) {
                         if (4 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);
                         }
-                    } else if (pageNumber === 9) {
-                        if (4 <= this.value.length && this.value.length <= 4 && isNaN(typeofAnswer) === false) {
+                    } else if (pageNumber === 23) {
+                        if (4 <= this.value.length && this.value.length <= 6 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);
                         }
-                    } else if (pageNumber === 10) {
-                        if (5 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                    } else if (pageNumber === 32) {
+                        if (4 <= this.value.length && this.value.length <= 6 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+                    } else if (pageNumber === 33) {
+                        if (4 <= this.value.length && this.value.length <= 6 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);

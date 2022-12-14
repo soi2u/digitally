@@ -1,4 +1,4 @@
-const pageNum = 18;
+const pageNum = 19;
 const pageName = "54";
 for (j = 1; j <= pageNum; j++) {
     contentImage.push(`../${pageName}/image/${j}.png`);
@@ -15,14 +15,15 @@ const page6 = "주민번호 뒷자리 한 자리를 입력해 주세요.";
 const page7 = "통신사 버튼을 눌러 줍니다.";
 const page8 = "KT를 선택해 줍니다.";
 const page9 = "인증 요청을 눌러 주세요.";
-const page10 = "인증하기를 눌러 주세요.";
-const page11 = "우리WON 간편회원을 눌러 주세요.";
-const page12 = "맞춤 준비 시작하기를 눌러 주세요.";
-const page13 = "전체 동의를 눌러 주세요.";
-const page14 = "다시 한번 전체 동의를 눌러 주세요.";
-const page15 = "다음을 눌러 주세요.";
-const page16 = "정보를 확인한 후 다음을 눌러 주세요.";
-const page17 = "확인을 누르면 가입이 완료됩니다. 모두 고생하셨습니다.";
+const page10 = "인증번호 6자리를 숫자만 입력해 주세요.";
+const page11 = "인증하기를 눌러 주세요.";
+const page12 = "우리WON 간편회원을 눌러 주세요.";
+const page13 = "맞춤 준비 시작하기를 눌러 주세요.";
+const page14 = "전체 동의를 눌러 주세요.";
+const page15 = "다시 한번 전체 동의를 눌러 주세요.";
+const page16 = "다음을 눌러 주세요.";
+const page17 = "정보를 확인한 후 다음을 눌러 주세요.";
+const page18 = "확인을 누르면 가입이 완료됩니다. 모두 고생하셨습니다.";
 
 pageDescArray.push(
     page1,
@@ -41,14 +42,16 @@ pageDescArray.push(
     page14,
     page15,
     page16,
-    page17
+    page17,
+    page18
 );
 
 
 const inputPage = [
-    { page: 3, correctAnswer: "한국인" },
+    { page: 3, correctAnswer: "이름을" },
     { page: 4, correctAnswer: "생년월일 여섯 자리" },
     { page: 5, correctAnswer: "주민번호 뒷자리 한 자리" },
+    { page: 9, correctAnswer: "숫자만" },
 ];
 
 function handleInput(pageNumber) {
@@ -59,20 +62,27 @@ function handleInput(pageNumber) {
             document.querySelector(".input-answer").addEventListener("keydown", function (event) {
                 if (event.keyCode === 13) {
                     typeofAnswer = Number(this.value);
-                    if (pageNumber === 5) {
-                        if (4 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                    if (pageNumber === 3) {
+                        if (2 <= this.value.length && this.value.length <= 5 && isNaN(typeofAnswer) === true) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);
                         }
+                    } else if (pageNumber === 4) {
+                        if (this.value.length === 6 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+                    } else if (pageNumber === 5) {
+                        if (this.value.length === 1 && isNaN(typeofAnswer) === false) {
+                            handleClickBox();
+                        } else {
+                            alert(RETRY_MESSAGE);
+                        }
+                    
                     } else if (pageNumber === 9) {
-                        if (4 <= this.value.length && this.value.length <= 4 && isNaN(typeofAnswer) === false) {
-                            handleClickBox();
-                        } else {
-                            alert(RETRY_MESSAGE);
-                        }
-                    } else if (pageNumber === 10) {
-                        if (5 <= this.value.length && this.value.length <= 13 && isNaN(typeofAnswer) === false) {
+                        if (5 <= this.value.length && this.value.length <= 7 && isNaN(typeofAnswer) === false) {
                             handleClickBox();
                         } else {
                             alert(RETRY_MESSAGE);
@@ -119,34 +129,37 @@ const coordinate9 = {
     startRateX: 0.7361111111111112, startRateY: 0.667578659370725, endRateX: 0.9916666666666667, endRateY: 0.7564979480164159
 };
 const coordinate10 = {
+    startRateX: 0.05277777777777778, startRateY: 0.8125854993160054, endRateX: 0.9583333333333334, endRateY: 0.8604651162790697
+};
+const coordinate11 = {
     startRateX: 0.005555555555555556, startRateY: 0.9370725034199726, endRateX: 0.9944444444444445, endRateY: 1
 };
 
-const coordinate11 = {
+const coordinate12 = {
     startRateX: 0.075, startRateY: 0.4829001367989056, endRateX: 0.9305555555555556, endRateY: 0.6771545827633378
 };
 
-const coordinate12 = {
+const coordinate13 = {
     startRateX: 0.002777777777777778, startRateY: 0.9398084815321477, endRateX: 0.9972222222222222, endRateY: 1
 };
 
-const coordinate13 = {
+const coordinate14 = {
     startRateX: 0.013888888888888888, startRateY: 0.2106703146374829, endRateX: 0.9972222222222222, endRateY: 0.27906976744186046
 };
 
-const coordinate14 = {
+const coordinate15 = {
     startRateX: 0.013888888888888888, startRateY: 0.9179206566347469, endRateX: 0.9888888888888889, endRateY: 1
 };
 
-const coordinate15 = {
+const coordinate16 = {
     startRateX: 0.2833333333333333, startRateY: 0.9151846785225718, endRateX: 0.9972222222222222, endRateY: 0.9986320109439124
 };
 
-const coordinate16 = {
+const coordinate17 = {
     startRateX: 0.002777777777777778, startRateY: 0.9069767441860465, endRateX: 0.9972222222222222, endRateY: 0.9958960328317373
 };
 
-const coordinate17 = {
+const coordinate18 = {
     startRateX: 0.011111111111111112, startRateY: 0.9138166894664843, endRateX: 0.9944444444444445, endRateY: 0.9986320109439124
 };
 
@@ -167,5 +180,6 @@ coordinateArray.push(
     coordinate14,
     coordinate15,
     coordinate16,
-    coordinate17
+    coordinate17,
+    coordinate18
 );
